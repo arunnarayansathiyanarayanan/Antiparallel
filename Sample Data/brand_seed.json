@@ -1,0 +1,34 @@
+{
+  "brand": {
+    "id": "demo-brand-wellnest-001",
+    "name": "WellNest India",
+    "founder_name": "Arun Sharma",
+    "founder_phone": "+919876543210",
+    "founder_email": "arun@wellnestindia.com",
+    "plan": "growth",
+    "plan_status": "active",
+    "mrr_inr": 9999
+  },
+  "brand_context": {
+    "brand_id": "demo-brand-wellnest-001",
+    "key_skus": [
+      "Collagen Gummies 30pc",
+      "Vitamin C Serum 30ml",
+      "Ashwagandha 60pc"
+    ],
+    "target_roas": 3.5,
+    "monthly_ad_budget_inr": 320000,
+    "competitors": [
+      "HealthKart",
+      "MuscleBlaze",
+      "Oziva"
+    ],
+    "primary_channels": [
+      "shopify",
+      "meta",
+      "google"
+    ],
+    "business_notes": "Strong Diwali and Valentine's seasonality. COD is 48% of orders. Main RTO problem in tier-2 cities.",
+    "cash_in_bank_inr": 1840000
+  }
+}

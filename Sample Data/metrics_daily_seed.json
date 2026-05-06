@@ -1,0 +1,5672 @@
+[
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-02-06",
+    "source": "shopify",
+    "metric_key": "revenue",
+    "metric_value": 32703
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-02-06",
+    "source": "shopify",
+    "metric_key": "net_revenue",
+    "metric_value": 25863.0
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-02-06",
+    "source": "shopify",
+    "metric_key": "orders",
+    "metric_value": 39
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-02-06",
+    "source": "shopify",
+    "metric_key": "rto_rate",
+    "metric_value": 12.82
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-02-06",
+    "source": "shopify",
+    "metric_key": "cod_rate",
+    "metric_value": 53.85
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-02-06",
+    "source": "shopify",
+    "metric_key": "aov",
+    "metric_value": 838.54
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-02-07",
+    "source": "shopify",
+    "metric_key": "revenue",
+    "metric_value": 30501
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-02-07",
+    "source": "shopify",
+    "metric_key": "net_revenue",
+    "metric_value": 24615.55
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-02-07",
+    "source": "shopify",
+    "metric_key": "orders",
+    "metric_value": 37
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-02-07",
+    "source": "shopify",
+    "metric_key": "rto_rate",
+    "metric_value": 16.22
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-02-07",
+    "source": "shopify",
+    "metric_key": "cod_rate",
+    "metric_value": 40.54
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-02-07",
+    "source": "shopify",
+    "metric_key": "aov",
+    "metric_value": 824.35
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-02-08",
+    "source": "shopify",
+    "metric_key": "revenue",
+    "metric_value": 37494
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-02-08",
+    "source": "shopify",
+    "metric_key": "net_revenue",
+    "metric_value": 35261.95
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-02-08",
+    "source": "shopify",
+    "metric_key": "orders",
+    "metric_value": 39
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-02-08",
+    "source": "shopify",
+    "metric_key": "rto_rate",
+    "metric_value": 5.13
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-02-08",
+    "source": "shopify",
+    "metric_key": "cod_rate",
+    "metric_value": 56.41
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-02-08",
+    "source": "shopify",
+    "metric_key": "aov",
+    "metric_value": 961.38
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-02-09",
+    "source": "shopify",
+    "metric_key": "revenue",
+    "metric_value": 29907
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-02-09",
+    "source": "shopify",
+    "metric_key": "net_revenue",
+    "metric_value": 26546.7
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-02-09",
+    "source": "shopify",
+    "metric_key": "orders",
+    "metric_value": 35
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-02-09",
+    "source": "shopify",
+    "metric_key": "rto_rate",
+    "metric_value": 8.57
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-02-09",
+    "source": "shopify",
+    "metric_key": "cod_rate",
+    "metric_value": 57.14
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-02-09",
+    "source": "shopify",
+    "metric_key": "aov",
+    "metric_value": 854.49
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-02-10",
+    "source": "shopify",
+    "metric_key": "revenue",
+    "metric_value": 59464
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-02-10",
+    "source": "shopify",
+    "metric_key": "net_revenue",
+    "metric_value": 54481.35
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-02-10",
+    "source": "shopify",
+    "metric_key": "orders",
+    "metric_value": 60
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-02-10",
+    "source": "shopify",
+    "metric_key": "rto_rate",
+    "metric_value": 5.0
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-02-10",
+    "source": "shopify",
+    "metric_key": "cod_rate",
+    "metric_value": 53.33
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-02-10",
+    "source": "shopify",
+    "metric_key": "aov",
+    "metric_value": 991.07
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-02-11",
+    "source": "shopify",
+    "metric_key": "revenue",
+    "metric_value": 42037
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-02-11",
+    "source": "shopify",
+    "metric_key": "net_revenue",
+    "metric_value": 39068.95
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-02-11",
+    "source": "shopify",
+    "metric_key": "orders",
+    "metric_value": 50
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-02-11",
+    "source": "shopify",
+    "metric_key": "rto_rate",
+    "metric_value": 6.0
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-02-11",
+    "source": "shopify",
+    "metric_key": "cod_rate",
+    "metric_value": 54.0
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-02-11",
+    "source": "shopify",
+    "metric_key": "aov",
+    "metric_value": 840.74
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-02-12",
+    "source": "shopify",
+    "metric_key": "revenue",
+    "metric_value": 52973
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-02-12",
+    "source": "shopify",
+    "metric_key": "net_revenue",
+    "metric_value": 48345.6
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-02-12",
+    "source": "shopify",
+    "metric_key": "orders",
+    "metric_value": 53
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-02-12",
+    "source": "shopify",
+    "metric_key": "rto_rate",
+    "metric_value": 5.66
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-02-12",
+    "source": "shopify",
+    "metric_key": "cod_rate",
+    "metric_value": 41.51
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-02-12",
+    "source": "shopify",
+    "metric_key": "aov",
+    "metric_value": 999.49
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-02-13",
+    "source": "shopify",
+    "metric_key": "revenue",
+    "metric_value": 57268
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-02-13",
+    "source": "shopify",
+    "metric_key": "net_revenue",
+    "metric_value": 53928.05
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-02-13",
+    "source": "shopify",
+    "metric_key": "orders",
+    "metric_value": 61
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-02-13",
+    "source": "shopify",
+    "metric_key": "rto_rate",
+    "metric_value": 4.92
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-02-13",
+    "source": "shopify",
+    "metric_key": "cod_rate",
+    "metric_value": 54.1
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-02-13",
+    "source": "shopify",
+    "metric_key": "aov",
+    "metric_value": 938.82
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-02-14",
+    "source": "shopify",
+    "metric_key": "revenue",
+    "metric_value": 47431
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-02-14",
+    "source": "shopify",
+    "metric_key": "net_revenue",
+    "metric_value": 42179.4
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-02-14",
+    "source": "shopify",
+    "metric_key": "orders",
+    "metric_value": 49
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-02-14",
+    "source": "shopify",
+    "metric_key": "rto_rate",
+    "metric_value": 10.2
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-02-14",
+    "source": "shopify",
+    "metric_key": "cod_rate",
+    "metric_value": 42.86
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-02-14",
+    "source": "shopify",
+    "metric_key": "aov",
+    "metric_value": 967.98
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-02-15",
+    "source": "shopify",
+    "metric_key": "revenue",
+    "metric_value": 39292
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-02-15",
+    "source": "shopify",
+    "metric_key": "net_revenue",
+    "metric_value": 35537.95
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-02-15",
+    "source": "shopify",
+    "metric_key": "orders",
+    "metric_value": 42
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-02-15",
+    "source": "shopify",
+    "metric_key": "rto_rate",
+    "metric_value": 7.14
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-02-15",
+    "source": "shopify",
+    "metric_key": "cod_rate",
+    "metric_value": 33.33
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-02-15",
+    "source": "shopify",
+    "metric_key": "aov",
+    "metric_value": 935.52
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-02-16",
+    "source": "shopify",
+    "metric_key": "revenue",
+    "metric_value": 29405
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-02-16",
+    "source": "shopify",
+    "metric_key": "net_revenue",
+    "metric_value": 25786.7
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-02-16",
+    "source": "shopify",
+    "metric_key": "orders",
+    "metric_value": 32
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-02-16",
+    "source": "shopify",
+    "metric_key": "rto_rate",
+    "metric_value": 12.5
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-02-16",
+    "source": "shopify",
+    "metric_key": "cod_rate",
+    "metric_value": 53.12
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-02-16",
+    "source": "shopify",
+    "metric_key": "aov",
+    "metric_value": 918.91
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-02-17",
+    "source": "shopify",
+    "metric_key": "revenue",
+    "metric_value": 33354
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-02-17",
+    "source": "shopify",
+    "metric_key": "net_revenue",
+    "metric_value": 30443.45
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-02-17",
+    "source": "shopify",
+    "metric_key": "orders",
+    "metric_value": 34
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-02-17",
+    "source": "shopify",
+    "metric_key": "rto_rate",
+    "metric_value": 8.82
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-02-17",
+    "source": "shopify",
+    "metric_key": "cod_rate",
+    "metric_value": 32.35
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-02-17",
+    "source": "shopify",
+    "metric_key": "aov",
+    "metric_value": 981.0
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-02-18",
+    "source": "shopify",
+    "metric_key": "revenue",
+    "metric_value": 29007
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-02-18",
+    "source": "shopify",
+    "metric_key": "net_revenue",
+    "metric_value": 25836.85
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-02-18",
+    "source": "shopify",
+    "metric_key": "orders",
+    "metric_value": 31
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-02-18",
+    "source": "shopify",
+    "metric_key": "rto_rate",
+    "metric_value": 12.9
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-02-18",
+    "source": "shopify",
+    "metric_key": "cod_rate",
+    "metric_value": 41.94
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-02-18",
+    "source": "shopify",
+    "metric_key": "aov",
+    "metric_value": 935.71
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-02-19",
+    "source": "shopify",
+    "metric_key": "revenue",
+    "metric_value": 28057
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-02-19",
+    "source": "shopify",
+    "metric_key": "net_revenue",
+    "metric_value": 22115.55
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-02-19",
+    "source": "shopify",
+    "metric_key": "orders",
+    "metric_value": 32
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-02-19",
+    "source": "shopify",
+    "metric_key": "rto_rate",
+    "metric_value": 12.5
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-02-19",
+    "source": "shopify",
+    "metric_key": "cod_rate",
+    "metric_value": 56.25
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-02-19",
+    "source": "shopify",
+    "metric_key": "aov",
+    "metric_value": 876.78
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-02-20",
+    "source": "shopify",
+    "metric_key": "revenue",
+    "metric_value": 31106
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-02-20",
+    "source": "shopify",
+    "metric_key": "net_revenue",
+    "metric_value": 28344.95
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-02-20",
+    "source": "shopify",
+    "metric_key": "orders",
+    "metric_value": 38
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-02-20",
+    "source": "shopify",
+    "metric_key": "rto_rate",
+    "metric_value": 7.89
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-02-20",
+    "source": "shopify",
+    "metric_key": "cod_rate",
+    "metric_value": 60.53
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-02-20",
+    "source": "shopify",
+    "metric_key": "aov",
+    "metric_value": 818.58
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-02-21",
+    "source": "shopify",
+    "metric_key": "revenue",
+    "metric_value": 37297
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-02-21",
+    "source": "shopify",
+    "metric_key": "net_revenue",
+    "metric_value": 33242.8
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-02-21",
+    "source": "shopify",
+    "metric_key": "orders",
+    "metric_value": 38
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-02-21",
+    "source": "shopify",
+    "metric_key": "rto_rate",
+    "metric_value": 5.26
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-02-21",
+    "source": "shopify",
+    "metric_key": "cod_rate",
+    "metric_value": 44.74
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-02-21",
+    "source": "shopify",
+    "metric_key": "aov",
+    "metric_value": 981.5
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-02-22",
+    "source": "shopify",
+    "metric_key": "revenue",
+    "metric_value": 34848
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-02-22",
+    "source": "shopify",
+    "metric_key": "net_revenue",
+    "metric_value": 32247.3
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-02-22",
+    "source": "shopify",
+    "metric_key": "orders",
+    "metric_value": 41
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-02-22",
+    "source": "shopify",
+    "metric_key": "rto_rate",
+    "metric_value": 7.32
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-02-22",
+    "source": "shopify",
+    "metric_key": "cod_rate",
+    "metric_value": 46.34
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-02-22",
+    "source": "shopify",
+    "metric_key": "aov",
+    "metric_value": 849.95
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-02-23",
+    "source": "shopify",
+    "metric_key": "revenue",
+    "metric_value": 31556
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-02-23",
+    "source": "shopify",
+    "metric_key": "net_revenue",
+    "metric_value": 28815.1
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-02-23",
+    "source": "shopify",
+    "metric_key": "orders",
+    "metric_value": 30
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-02-23",
+    "source": "shopify",
+    "metric_key": "rto_rate",
+    "metric_value": 10.0
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-02-23",
+    "source": "shopify",
+    "metric_key": "cod_rate",
+    "metric_value": 43.33
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-02-23",
+    "source": "shopify",
+    "metric_key": "aov",
+    "metric_value": 1051.87
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-02-24",
+    "source": "shopify",
+    "metric_key": "revenue",
+    "metric_value": 34200
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-02-24",
+    "source": "shopify",
+    "metric_key": "net_revenue",
+    "metric_value": 33256.45
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-02-24",
+    "source": "shopify",
+    "metric_key": "orders",
+    "metric_value": 37
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-02-24",
+    "source": "shopify",
+    "metric_key": "rto_rate",
+    "metric_value": 2.7
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-02-24",
+    "source": "shopify",
+    "metric_key": "cod_rate",
+    "metric_value": 59.46
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-02-24",
+    "source": "shopify",
+    "metric_key": "aov",
+    "metric_value": 924.32
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-02-25",
+    "source": "shopify",
+    "metric_key": "revenue",
+    "metric_value": 37347
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-02-25",
+    "source": "shopify",
+    "metric_key": "net_revenue",
+    "metric_value": 31920.1
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-02-25",
+    "source": "shopify",
+    "metric_key": "orders",
+    "metric_value": 34
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-02-25",
+    "source": "shopify",
+    "metric_key": "rto_rate",
+    "metric_value": 11.76
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-02-25",
+    "source": "shopify",
+    "metric_key": "cod_rate",
+    "metric_value": 52.94
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-02-25",
+    "source": "shopify",
+    "metric_key": "aov",
+    "metric_value": 1098.44
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-02-26",
+    "source": "shopify",
+    "metric_key": "revenue",
+    "metric_value": 37945
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-02-26",
+    "source": "shopify",
+    "metric_key": "net_revenue",
+    "metric_value": 31444.45
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-02-26",
+    "source": "shopify",
+    "metric_key": "orders",
+    "metric_value": 39
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-02-26",
+    "source": "shopify",
+    "metric_key": "rto_rate",
+    "metric_value": 12.82
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-02-26",
+    "source": "shopify",
+    "metric_key": "cod_rate",
+    "metric_value": 46.15
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-02-26",
+    "source": "shopify",
+    "metric_key": "aov",
+    "metric_value": 972.95
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-02-27",
+    "source": "shopify",
+    "metric_key": "revenue",
+    "metric_value": 39841
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-02-27",
+    "source": "shopify",
+    "metric_key": "net_revenue",
+    "metric_value": 35026.1
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-02-27",
+    "source": "shopify",
+    "metric_key": "orders",
+    "metric_value": 39
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-02-27",
+    "source": "shopify",
+    "metric_key": "rto_rate",
+    "metric_value": 10.26
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-02-27",
+    "source": "shopify",
+    "metric_key": "cod_rate",
+    "metric_value": 48.72
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-02-27",
+    "source": "shopify",
+    "metric_key": "aov",
+    "metric_value": 1021.56
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-02-28",
+    "source": "shopify",
+    "metric_key": "revenue",
+    "metric_value": 32851
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-02-28",
+    "source": "shopify",
+    "metric_key": "net_revenue",
+    "metric_value": 28741.95
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-02-28",
+    "source": "shopify",
+    "metric_key": "orders",
+    "metric_value": 36
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-02-28",
+    "source": "shopify",
+    "metric_key": "rto_rate",
+    "metric_value": 11.11
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-02-28",
+    "source": "shopify",
+    "metric_key": "cod_rate",
+    "metric_value": 47.22
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-02-28",
+    "source": "shopify",
+    "metric_key": "aov",
+    "metric_value": 912.53
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-03-01",
+    "source": "shopify",
+    "metric_key": "revenue",
+    "metric_value": 33849
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-03-01",
+    "source": "shopify",
+    "metric_key": "net_revenue",
+    "metric_value": 28847.05
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-03-01",
+    "source": "shopify",
+    "metric_key": "orders",
+    "metric_value": 42
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-03-01",
+    "source": "shopify",
+    "metric_key": "rto_rate",
+    "metric_value": 14.29
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-03-01",
+    "source": "shopify",
+    "metric_key": "cod_rate",
+    "metric_value": 40.48
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-03-01",
+    "source": "shopify",
+    "metric_key": "aov",
+    "metric_value": 805.93
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-03-02",
+    "source": "shopify",
+    "metric_key": "revenue",
+    "metric_value": 27512
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-03-02",
+    "source": "shopify",
+    "metric_key": "net_revenue",
+    "metric_value": 24561.05
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-03-02",
+    "source": "shopify",
+    "metric_key": "orders",
+    "metric_value": 26
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-03-02",
+    "source": "shopify",
+    "metric_key": "rto_rate",
+    "metric_value": 11.54
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-03-02",
+    "source": "shopify",
+    "metric_key": "cod_rate",
+    "metric_value": 50.0
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-03-02",
+    "source": "shopify",
+    "metric_key": "aov",
+    "metric_value": 1058.15
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-03-03",
+    "source": "shopify",
+    "metric_key": "revenue",
+    "metric_value": 31503
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-03-03",
+    "source": "shopify",
+    "metric_key": "net_revenue",
+    "metric_value": 26449.85
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-03-03",
+    "source": "shopify",
+    "metric_key": "orders",
+    "metric_value": 37
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-03-03",
+    "source": "shopify",
+    "metric_key": "rto_rate",
+    "metric_value": 10.81
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-03-03",
+    "source": "shopify",
+    "metric_key": "cod_rate",
+    "metric_value": 43.24
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-03-03",
+    "source": "shopify",
+    "metric_key": "aov",
+    "metric_value": 851.43
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-03-04",
+    "source": "shopify",
+    "metric_key": "revenue",
+    "metric_value": 20371
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-03-04",
+    "source": "shopify",
+    "metric_key": "net_revenue",
+    "metric_value": 18343.9
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-03-04",
+    "source": "shopify",
+    "metric_key": "orders",
+    "metric_value": 23
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-03-04",
+    "source": "shopify",
+    "metric_key": "rto_rate",
+    "metric_value": 8.7
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-03-04",
+    "source": "shopify",
+    "metric_key": "cod_rate",
+    "metric_value": 43.48
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-03-04",
+    "source": "shopify",
+    "metric_key": "aov",
+    "metric_value": 885.7
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-03-05",
+    "source": "shopify",
+    "metric_key": "revenue",
+    "metric_value": 30560
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-03-05",
+    "source": "shopify",
+    "metric_key": "net_revenue",
+    "metric_value": 27733.4
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-03-05",
+    "source": "shopify",
+    "metric_key": "orders",
+    "metric_value": 33
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-03-05",
+    "source": "shopify",
+    "metric_key": "rto_rate",
+    "metric_value": 3.03
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-03-05",
+    "source": "shopify",
+    "metric_key": "cod_rate",
+    "metric_value": 48.48
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-03-05",
+    "source": "shopify",
+    "metric_key": "aov",
+    "metric_value": 926.06
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-03-06",
+    "source": "shopify",
+    "metric_key": "revenue",
+    "metric_value": 45186
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-03-06",
+    "source": "shopify",
+    "metric_key": "net_revenue",
+    "metric_value": 39734.95
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-03-06",
+    "source": "shopify",
+    "metric_key": "orders",
+    "metric_value": 42
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-03-06",
+    "source": "shopify",
+    "metric_key": "rto_rate",
+    "metric_value": 11.9
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-03-06",
+    "source": "shopify",
+    "metric_key": "cod_rate",
+    "metric_value": 45.24
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-03-06",
+    "source": "shopify",
+    "metric_key": "aov",
+    "metric_value": 1075.86
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-03-07",
+    "source": "shopify",
+    "metric_key": "revenue",
+    "metric_value": 39292
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-03-07",
+    "source": "shopify",
+    "metric_key": "net_revenue",
+    "metric_value": 36111.8
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-03-07",
+    "source": "shopify",
+    "metric_key": "orders",
+    "metric_value": 40
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-03-07",
+    "source": "shopify",
+    "metric_key": "rto_rate",
+    "metric_value": 7.5
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-03-07",
+    "source": "shopify",
+    "metric_key": "cod_rate",
+    "metric_value": 52.5
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-03-07",
+    "source": "shopify",
+    "metric_key": "aov",
+    "metric_value": 982.3
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-03-08",
+    "source": "shopify",
+    "metric_key": "revenue",
+    "metric_value": 39891
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-03-08",
+    "source": "shopify",
+    "metric_key": "net_revenue",
+    "metric_value": 36645.75
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-03-08",
+    "source": "shopify",
+    "metric_key": "orders",
+    "metric_value": 40
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-03-08",
+    "source": "shopify",
+    "metric_key": "rto_rate",
+    "metric_value": 5.0
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-03-08",
+    "source": "shopify",
+    "metric_key": "cod_rate",
+    "metric_value": 42.5
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-03-08",
+    "source": "shopify",
+    "metric_key": "aov",
+    "metric_value": 997.27
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-03-09",
+    "source": "shopify",
+    "metric_key": "revenue",
+    "metric_value": 29709
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-03-09",
+    "source": "shopify",
+    "metric_key": "net_revenue",
+    "metric_value": 23913.8
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-03-09",
+    "source": "shopify",
+    "metric_key": "orders",
+    "metric_value": 27
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-03-09",
+    "source": "shopify",
+    "metric_key": "rto_rate",
+    "metric_value": 14.81
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-03-09",
+    "source": "shopify",
+    "metric_key": "cod_rate",
+    "metric_value": 33.33
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-03-09",
+    "source": "shopify",
+    "metric_key": "aov",
+    "metric_value": 1100.33
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-03-10",
+    "source": "shopify",
+    "metric_key": "revenue",
+    "metric_value": 33748
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-03-10",
+    "source": "shopify",
+    "metric_key": "net_revenue",
+    "metric_value": 29630.65
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-03-10",
+    "source": "shopify",
+    "metric_key": "orders",
+    "metric_value": 34
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-03-10",
+    "source": "shopify",
+    "metric_key": "rto_rate",
+    "metric_value": 11.76
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-03-10",
+    "source": "shopify",
+    "metric_key": "cod_rate",
+    "metric_value": 67.65
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-03-10",
+    "source": "shopify",
+    "metric_key": "aov",
+    "metric_value": 992.59
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-03-11",
+    "source": "shopify",
+    "metric_key": "revenue",
+    "metric_value": 37898
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-03-11",
+    "source": "shopify",
+    "metric_key": "net_revenue",
+    "metric_value": 35680.55
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-03-11",
+    "source": "shopify",
+    "metric_key": "orders",
+    "metric_value": 37
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-03-11",
+    "source": "shopify",
+    "metric_key": "rto_rate",
+    "metric_value": 5.41
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-03-11",
+    "source": "shopify",
+    "metric_key": "cod_rate",
+    "metric_value": 45.95
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-03-11",
+    "source": "shopify",
+    "metric_key": "aov",
+    "metric_value": 1024.27
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-03-12",
+    "source": "shopify",
+    "metric_key": "revenue",
+    "metric_value": 29707
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-03-12",
+    "source": "shopify",
+    "metric_key": "net_revenue",
+    "metric_value": 28134.45
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-03-12",
+    "source": "shopify",
+    "metric_key": "orders",
+    "metric_value": 29
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-03-12",
+    "source": "shopify",
+    "metric_key": "rto_rate",
+    "metric_value": 6.9
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-03-12",
+    "source": "shopify",
+    "metric_key": "cod_rate",
+    "metric_value": 51.72
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-03-12",
+    "source": "shopify",
+    "metric_key": "aov",
+    "metric_value": 1024.38
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-03-13",
+    "source": "shopify",
+    "metric_key": "revenue",
+    "metric_value": 38142
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-03-13",
+    "source": "shopify",
+    "metric_key": "net_revenue",
+    "metric_value": 34103.6
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-03-13",
+    "source": "shopify",
+    "metric_key": "orders",
+    "metric_value": 39
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-03-13",
+    "source": "shopify",
+    "metric_key": "rto_rate",
+    "metric_value": 10.26
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-03-13",
+    "source": "shopify",
+    "metric_key": "cod_rate",
+    "metric_value": 53.85
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-03-13",
+    "source": "shopify",
+    "metric_key": "aov",
+    "metric_value": 978.0
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-03-14",
+    "source": "shopify",
+    "metric_key": "revenue",
+    "metric_value": 43636
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-03-14",
+    "source": "shopify",
+    "metric_key": "net_revenue",
+    "metric_value": 34729.45
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-03-14",
+    "source": "shopify",
+    "metric_key": "orders",
+    "metric_value": 46
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-03-14",
+    "source": "shopify",
+    "metric_key": "rto_rate",
+    "metric_value": 13.04
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-03-14",
+    "source": "shopify",
+    "metric_key": "cod_rate",
+    "metric_value": 34.78
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-03-14",
+    "source": "shopify",
+    "metric_key": "aov",
+    "metric_value": 948.61
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-03-15",
+    "source": "shopify",
+    "metric_key": "revenue",
+    "metric_value": 37144
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-03-15",
+    "source": "shopify",
+    "metric_key": "net_revenue",
+    "metric_value": 30341.9
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-03-15",
+    "source": "shopify",
+    "metric_key": "orders",
+    "metric_value": 40
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-03-15",
+    "source": "shopify",
+    "metric_key": "rto_rate",
+    "metric_value": 17.5
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-03-15",
+    "source": "shopify",
+    "metric_key": "cod_rate",
+    "metric_value": 50.0
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-03-15",
+    "source": "shopify",
+    "metric_key": "aov",
+    "metric_value": 928.6
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-03-16",
+    "source": "shopify",
+    "metric_key": "revenue",
+    "metric_value": 37599
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-03-16",
+    "source": "shopify",
+    "metric_key": "net_revenue",
+    "metric_value": 31736.15
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-03-16",
+    "source": "shopify",
+    "metric_key": "orders",
+    "metric_value": 37
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-03-16",
+    "source": "shopify",
+    "metric_key": "rto_rate",
+    "metric_value": 13.51
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-03-16",
+    "source": "shopify",
+    "metric_key": "cod_rate",
+    "metric_value": 43.24
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-03-16",
+    "source": "shopify",
+    "metric_key": "aov",
+    "metric_value": 1016.19
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-03-17",
+    "source": "shopify",
+    "metric_key": "revenue",
+    "metric_value": 41439
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-03-17",
+    "source": "shopify",
+    "metric_key": "net_revenue",
+    "metric_value": 37620.5
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-03-17",
+    "source": "shopify",
+    "metric_key": "orders",
+    "metric_value": 41
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-03-17",
+    "source": "shopify",
+    "metric_key": "rto_rate",
+    "metric_value": 9.76
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-03-17",
+    "source": "shopify",
+    "metric_key": "cod_rate",
+    "metric_value": 51.22
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-03-17",
+    "source": "shopify",
+    "metric_key": "aov",
+    "metric_value": 1010.71
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-03-18",
+    "source": "shopify",
+    "metric_key": "revenue",
+    "metric_value": 31553
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-03-18",
+    "source": "shopify",
+    "metric_key": "net_revenue",
+    "metric_value": 28797.1
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-03-18",
+    "source": "shopify",
+    "metric_key": "orders",
+    "metric_value": 32
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-03-18",
+    "source": "shopify",
+    "metric_key": "rto_rate",
+    "metric_value": 9.38
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-03-18",
+    "source": "shopify",
+    "metric_key": "cod_rate",
+    "metric_value": 46.88
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-03-18",
+    "source": "shopify",
+    "metric_key": "aov",
+    "metric_value": 986.03
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-03-19",
+    "source": "shopify",
+    "metric_key": "revenue",
+    "metric_value": 39690
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-03-19",
+    "source": "shopify",
+    "metric_key": "net_revenue",
+    "metric_value": 36120.75
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-03-19",
+    "source": "shopify",
+    "metric_key": "orders",
+    "metric_value": 44
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-03-19",
+    "source": "shopify",
+    "metric_key": "rto_rate",
+    "metric_value": 4.55
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-03-19",
+    "source": "shopify",
+    "metric_key": "cod_rate",
+    "metric_value": 50.0
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-03-19",
+    "source": "shopify",
+    "metric_key": "aov",
+    "metric_value": 902.05
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-03-20",
+    "source": "shopify",
+    "metric_key": "revenue",
+    "metric_value": 30307
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-03-20",
+    "source": "shopify",
+    "metric_key": "net_revenue",
+    "metric_value": 27063.85
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-03-20",
+    "source": "shopify",
+    "metric_key": "orders",
+    "metric_value": 35
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-03-20",
+    "source": "shopify",
+    "metric_key": "rto_rate",
+    "metric_value": 8.57
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-03-20",
+    "source": "shopify",
+    "metric_key": "cod_rate",
+    "metric_value": 51.43
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-03-20",
+    "source": "shopify",
+    "metric_key": "aov",
+    "metric_value": 865.91
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-03-21",
+    "source": "shopify",
+    "metric_key": "revenue",
+    "metric_value": 36296
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-03-21",
+    "source": "shopify",
+    "metric_key": "net_revenue",
+    "metric_value": 32736.1
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-03-21",
+    "source": "shopify",
+    "metric_key": "orders",
+    "metric_value": 39
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-03-21",
+    "source": "shopify",
+    "metric_key": "rto_rate",
+    "metric_value": 7.69
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-03-21",
+    "source": "shopify",
+    "metric_key": "cod_rate",
+    "metric_value": 58.97
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-03-21",
+    "source": "shopify",
+    "metric_key": "aov",
+    "metric_value": 930.67
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-03-22",
+    "source": "shopify",
+    "metric_key": "revenue",
+    "metric_value": 35647
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-03-22",
+    "source": "shopify",
+    "metric_key": "net_revenue",
+    "metric_value": 32873.65
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-03-22",
+    "source": "shopify",
+    "metric_key": "orders",
+    "metric_value": 36
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-03-22",
+    "source": "shopify",
+    "metric_key": "rto_rate",
+    "metric_value": 5.56
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-03-22",
+    "source": "shopify",
+    "metric_key": "cod_rate",
+    "metric_value": 41.67
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-03-22",
+    "source": "shopify",
+    "metric_key": "aov",
+    "metric_value": 990.19
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-03-23",
+    "source": "shopify",
+    "metric_key": "revenue",
+    "metric_value": 27809
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-03-23",
+    "source": "shopify",
+    "metric_key": "net_revenue",
+    "metric_value": 22482.0
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-03-23",
+    "source": "shopify",
+    "metric_key": "orders",
+    "metric_value": 28
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-03-23",
+    "source": "shopify",
+    "metric_key": "rto_rate",
+    "metric_value": 14.29
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-03-23",
+    "source": "shopify",
+    "metric_key": "cod_rate",
+    "metric_value": 39.29
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-03-23",
+    "source": "shopify",
+    "metric_key": "aov",
+    "metric_value": 993.18
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-03-24",
+    "source": "shopify",
+    "metric_key": "revenue",
+    "metric_value": 33302
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-03-24",
+    "source": "shopify",
+    "metric_key": "net_revenue",
+    "metric_value": 26122.15
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-03-24",
+    "source": "shopify",
+    "metric_key": "orders",
+    "metric_value": 34
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-03-24",
+    "source": "shopify",
+    "metric_key": "rto_rate",
+    "metric_value": 20.59
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-03-24",
+    "source": "shopify",
+    "metric_key": "cod_rate",
+    "metric_value": 58.82
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-03-24",
+    "source": "shopify",
+    "metric_key": "aov",
+    "metric_value": 979.47
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-03-25",
+    "source": "shopify",
+    "metric_key": "revenue",
+    "metric_value": 30307
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-03-25",
+    "source": "shopify",
+    "metric_key": "net_revenue",
+    "metric_value": 28215.3
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-03-25",
+    "source": "shopify",
+    "metric_key": "orders",
+    "metric_value": 31
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-03-25",
+    "source": "shopify",
+    "metric_key": "rto_rate",
+    "metric_value": 6.45
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-03-25",
+    "source": "shopify",
+    "metric_key": "cod_rate",
+    "metric_value": 48.39
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-03-25",
+    "source": "shopify",
+    "metric_key": "aov",
+    "metric_value": 977.65
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-03-26",
+    "source": "shopify",
+    "metric_key": "revenue",
+    "metric_value": 32654
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-03-26",
+    "source": "shopify",
+    "metric_key": "net_revenue",
+    "metric_value": 30207.2
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-03-26",
+    "source": "shopify",
+    "metric_key": "orders",
+    "metric_value": 35
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-03-26",
+    "source": "shopify",
+    "metric_key": "rto_rate",
+    "metric_value": 5.71
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-03-26",
+    "source": "shopify",
+    "metric_key": "cod_rate",
+    "metric_value": 60.0
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-03-26",
+    "source": "shopify",
+    "metric_key": "aov",
+    "metric_value": 932.97
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-03-27",
+    "source": "shopify",
+    "metric_key": "revenue",
+    "metric_value": 31852
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-03-27",
+    "source": "shopify",
+    "metric_key": "net_revenue",
+    "metric_value": 29755.35
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-03-27",
+    "source": "shopify",
+    "metric_key": "orders",
+    "metric_value": 39
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-03-27",
+    "source": "shopify",
+    "metric_key": "rto_rate",
+    "metric_value": 5.13
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-03-27",
+    "source": "shopify",
+    "metric_key": "cod_rate",
+    "metric_value": 38.46
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-03-27",
+    "source": "shopify",
+    "metric_key": "aov",
+    "metric_value": 816.72
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-03-28",
+    "source": "shopify",
+    "metric_key": "revenue",
+    "metric_value": 30556
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-03-28",
+    "source": "shopify",
+    "metric_key": "net_revenue",
+    "metric_value": 27819.85
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-03-28",
+    "source": "shopify",
+    "metric_key": "orders",
+    "metric_value": 36
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-03-28",
+    "source": "shopify",
+    "metric_key": "rto_rate",
+    "metric_value": 8.33
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-03-28",
+    "source": "shopify",
+    "metric_key": "cod_rate",
+    "metric_value": 63.89
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-03-28",
+    "source": "shopify",
+    "metric_key": "aov",
+    "metric_value": 848.78
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-03-29",
+    "source": "shopify",
+    "metric_key": "revenue",
+    "metric_value": 39943
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-03-29",
+    "source": "shopify",
+    "metric_key": "net_revenue",
+    "metric_value": 36068.75
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-03-29",
+    "source": "shopify",
+    "metric_key": "orders",
+    "metric_value": 46
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-03-29",
+    "source": "shopify",
+    "metric_key": "rto_rate",
+    "metric_value": 8.7
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-03-29",
+    "source": "shopify",
+    "metric_key": "cod_rate",
+    "metric_value": 36.96
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-03-29",
+    "source": "shopify",
+    "metric_key": "aov",
+    "metric_value": 868.33
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-03-30",
+    "source": "shopify",
+    "metric_key": "revenue",
+    "metric_value": 29509
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-03-30",
+    "source": "shopify",
+    "metric_key": "net_revenue",
+    "metric_value": 25210.3
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-03-30",
+    "source": "shopify",
+    "metric_key": "orders",
+    "metric_value": 29
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-03-30",
+    "source": "shopify",
+    "metric_key": "rto_rate",
+    "metric_value": 13.79
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-03-30",
+    "source": "shopify",
+    "metric_key": "cod_rate",
+    "metric_value": 51.72
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-03-30",
+    "source": "shopify",
+    "metric_key": "aov",
+    "metric_value": 1017.55
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-03-31",
+    "source": "shopify",
+    "metric_key": "revenue",
+    "metric_value": 33154
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-03-31",
+    "source": "shopify",
+    "metric_key": "net_revenue",
+    "metric_value": 31037.35
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-03-31",
+    "source": "shopify",
+    "metric_key": "orders",
+    "metric_value": 39
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-03-31",
+    "source": "shopify",
+    "metric_key": "rto_rate",
+    "metric_value": 5.13
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-03-31",
+    "source": "shopify",
+    "metric_key": "cod_rate",
+    "metric_value": 58.97
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-03-31",
+    "source": "shopify",
+    "metric_key": "aov",
+    "metric_value": 850.1
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-04-01",
+    "source": "shopify",
+    "metric_key": "revenue",
+    "metric_value": 21220
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-04-01",
+    "source": "shopify",
+    "metric_key": "net_revenue",
+    "metric_value": 18234.35
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-04-01",
+    "source": "shopify",
+    "metric_key": "orders",
+    "metric_value": 25
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-04-01",
+    "source": "shopify",
+    "metric_key": "rto_rate",
+    "metric_value": 12.0
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-04-01",
+    "source": "shopify",
+    "metric_key": "cod_rate",
+    "metric_value": 56.0
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-04-01",
+    "source": "shopify",
+    "metric_key": "aov",
+    "metric_value": 848.8
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-04-02",
+    "source": "shopify",
+    "metric_key": "revenue",
+    "metric_value": 39440
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-04-02",
+    "source": "shopify",
+    "metric_key": "net_revenue",
+    "metric_value": 33951.35
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-04-02",
+    "source": "shopify",
+    "metric_key": "orders",
+    "metric_value": 44
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-04-02",
+    "source": "shopify",
+    "metric_key": "rto_rate",
+    "metric_value": 11.36
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-04-02",
+    "source": "shopify",
+    "metric_key": "cod_rate",
+    "metric_value": 52.27
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-04-02",
+    "source": "shopify",
+    "metric_key": "aov",
+    "metric_value": 896.36
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-04-03",
+    "source": "shopify",
+    "metric_key": "revenue",
+    "metric_value": 44538
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-04-03",
+    "source": "shopify",
+    "metric_key": "net_revenue",
+    "metric_value": 37257.55
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-04-03",
+    "source": "shopify",
+    "metric_key": "orders",
+    "metric_value": 48
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-04-03",
+    "source": "shopify",
+    "metric_key": "rto_rate",
+    "metric_value": 12.5
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-04-03",
+    "source": "shopify",
+    "metric_key": "cod_rate",
+    "metric_value": 43.75
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-04-03",
+    "source": "shopify",
+    "metric_key": "aov",
+    "metric_value": 927.88
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-04-04",
+    "source": "shopify",
+    "metric_key": "revenue",
+    "metric_value": 38794
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-04-04",
+    "source": "shopify",
+    "metric_key": "net_revenue",
+    "metric_value": 37338.9
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-04-04",
+    "source": "shopify",
+    "metric_key": "orders",
+    "metric_value": 39
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-04-04",
+    "source": "shopify",
+    "metric_key": "rto_rate",
+    "metric_value": 2.56
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-04-04",
+    "source": "shopify",
+    "metric_key": "cod_rate",
+    "metric_value": 35.9
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-04-04",
+    "source": "shopify",
+    "metric_key": "aov",
+    "metric_value": 994.72
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-04-05",
+    "source": "shopify",
+    "metric_key": "revenue",
+    "metric_value": 25862
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-04-05",
+    "source": "shopify",
+    "metric_key": "net_revenue",
+    "metric_value": 24608.85
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-04-05",
+    "source": "shopify",
+    "metric_key": "orders",
+    "metric_value": 32
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-04-05",
+    "source": "shopify",
+    "metric_key": "rto_rate",
+    "metric_value": 3.12
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-04-05",
+    "source": "shopify",
+    "metric_key": "cod_rate",
+    "metric_value": 43.75
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-04-05",
+    "source": "shopify",
+    "metric_key": "aov",
+    "metric_value": 808.19
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-04-06",
+    "source": "shopify",
+    "metric_key": "revenue",
+    "metric_value": 23015
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-04-06",
+    "source": "shopify",
+    "metric_key": "net_revenue",
+    "metric_value": 21397.8
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-04-06",
+    "source": "shopify",
+    "metric_key": "orders",
+    "metric_value": 27
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-04-06",
+    "source": "shopify",
+    "metric_key": "rto_rate",
+    "metric_value": 7.41
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-04-06",
+    "source": "shopify",
+    "metric_key": "cod_rate",
+    "metric_value": 59.26
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-04-06",
+    "source": "shopify",
+    "metric_key": "aov",
+    "metric_value": 852.41
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-04-07",
+    "source": "shopify",
+    "metric_key": "revenue",
+    "metric_value": 25912
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-04-07",
+    "source": "shopify",
+    "metric_key": "net_revenue",
+    "metric_value": 23887.15
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-04-07",
+    "source": "shopify",
+    "metric_key": "orders",
+    "metric_value": 31
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-04-07",
+    "source": "shopify",
+    "metric_key": "rto_rate",
+    "metric_value": 3.23
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-04-07",
+    "source": "shopify",
+    "metric_key": "cod_rate",
+    "metric_value": 51.61
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-04-07",
+    "source": "shopify",
+    "metric_key": "aov",
+    "metric_value": 835.87
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-04-08",
+    "source": "shopify",
+    "metric_key": "revenue",
+    "metric_value": 35896
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-04-08",
+    "source": "shopify",
+    "metric_key": "net_revenue",
+    "metric_value": 31836.35
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-04-08",
+    "source": "shopify",
+    "metric_key": "orders",
+    "metric_value": 39
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-04-08",
+    "source": "shopify",
+    "metric_key": "rto_rate",
+    "metric_value": 5.13
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-04-08",
+    "source": "shopify",
+    "metric_key": "cod_rate",
+    "metric_value": 56.41
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-04-08",
+    "source": "shopify",
+    "metric_key": "aov",
+    "metric_value": 920.41
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-04-09",
+    "source": "shopify",
+    "metric_key": "revenue",
+    "metric_value": 34301
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-04-09",
+    "source": "shopify",
+    "metric_key": "net_revenue",
+    "metric_value": 32873.0
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-04-09",
+    "source": "shopify",
+    "metric_key": "orders",
+    "metric_value": 34
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-04-09",
+    "source": "shopify",
+    "metric_key": "rto_rate",
+    "metric_value": 0.0
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-04-09",
+    "source": "shopify",
+    "metric_key": "cod_rate",
+    "metric_value": 52.94
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-04-09",
+    "source": "shopify",
+    "metric_key": "aov",
+    "metric_value": 1008.85
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-04-10",
+    "source": "shopify",
+    "metric_key": "revenue",
+    "metric_value": 38295
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-04-10",
+    "source": "shopify",
+    "metric_key": "net_revenue",
+    "metric_value": 34550.2
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-04-10",
+    "source": "shopify",
+    "metric_key": "orders",
+    "metric_value": 39
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-04-10",
+    "source": "shopify",
+    "metric_key": "rto_rate",
+    "metric_value": 7.69
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-04-10",
+    "source": "shopify",
+    "metric_key": "cod_rate",
+    "metric_value": 43.59
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-04-10",
+    "source": "shopify",
+    "metric_key": "aov",
+    "metric_value": 981.92
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-04-11",
+    "source": "shopify",
+    "metric_key": "revenue",
+    "metric_value": 43133
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-04-11",
+    "source": "shopify",
+    "metric_key": "net_revenue",
+    "metric_value": 39963.45
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-04-11",
+    "source": "shopify",
+    "metric_key": "orders",
+    "metric_value": 43
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-04-11",
+    "source": "shopify",
+    "metric_key": "rto_rate",
+    "metric_value": 4.65
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-04-11",
+    "source": "shopify",
+    "metric_key": "cod_rate",
+    "metric_value": 53.49
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-04-11",
+    "source": "shopify",
+    "metric_key": "aov",
+    "metric_value": 1003.09
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-04-12",
+    "source": "shopify",
+    "metric_key": "revenue",
+    "metric_value": 43086
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-04-12",
+    "source": "shopify",
+    "metric_key": "net_revenue",
+    "metric_value": 41767.8
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-04-12",
+    "source": "shopify",
+    "metric_key": "orders",
+    "metric_value": 42
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-04-12",
+    "source": "shopify",
+    "metric_key": "rto_rate",
+    "metric_value": 0.0
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-04-12",
+    "source": "shopify",
+    "metric_key": "cod_rate",
+    "metric_value": 54.76
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-04-12",
+    "source": "shopify",
+    "metric_key": "aov",
+    "metric_value": 1025.86
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-04-13",
+    "source": "shopify",
+    "metric_key": "revenue",
+    "metric_value": 26011
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-04-13",
+    "source": "shopify",
+    "metric_key": "net_revenue",
+    "metric_value": 20648.7
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-04-13",
+    "source": "shopify",
+    "metric_key": "orders",
+    "metric_value": 29
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-04-13",
+    "source": "shopify",
+    "metric_key": "rto_rate",
+    "metric_value": 17.24
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-04-13",
+    "source": "shopify",
+    "metric_key": "cod_rate",
+    "metric_value": 44.83
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-04-13",
+    "source": "shopify",
+    "metric_key": "aov",
+    "metric_value": 896.93
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-04-14",
+    "source": "shopify",
+    "metric_key": "revenue",
+    "metric_value": 35349
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-04-14",
+    "source": "shopify",
+    "metric_key": "net_revenue",
+    "metric_value": 31978.75
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-04-14",
+    "source": "shopify",
+    "metric_key": "orders",
+    "metric_value": 37
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-04-14",
+    "source": "shopify",
+    "metric_key": "rto_rate",
+    "metric_value": 10.81
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-04-14",
+    "source": "shopify",
+    "metric_key": "cod_rate",
+    "metric_value": 29.73
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-04-14",
+    "source": "shopify",
+    "metric_key": "aov",
+    "metric_value": 955.38
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-04-15",
+    "source": "shopify",
+    "metric_key": "revenue",
+    "metric_value": 37446
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-04-15",
+    "source": "shopify",
+    "metric_key": "net_revenue",
+    "metric_value": 32614.1
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-04-15",
+    "source": "shopify",
+    "metric_key": "orders",
+    "metric_value": 40
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-04-15",
+    "source": "shopify",
+    "metric_key": "rto_rate",
+    "metric_value": 12.5
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-04-15",
+    "source": "shopify",
+    "metric_key": "cod_rate",
+    "metric_value": 45.0
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-04-15",
+    "source": "shopify",
+    "metric_key": "aov",
+    "metric_value": 936.15
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-04-16",
+    "source": "shopify",
+    "metric_key": "revenue",
+    "metric_value": 34400
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-04-16",
+    "source": "shopify",
+    "metric_key": "net_revenue",
+    "metric_value": 32657.7
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-04-16",
+    "source": "shopify",
+    "metric_key": "orders",
+    "metric_value": 34
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-04-16",
+    "source": "shopify",
+    "metric_key": "rto_rate",
+    "metric_value": 5.88
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-04-16",
+    "source": "shopify",
+    "metric_key": "cod_rate",
+    "metric_value": 52.94
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-04-16",
+    "source": "shopify",
+    "metric_key": "aov",
+    "metric_value": 1011.76
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-04-17",
+    "source": "shopify",
+    "metric_key": "revenue",
+    "metric_value": 42987
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-04-17",
+    "source": "shopify",
+    "metric_key": "net_revenue",
+    "metric_value": 38942.95
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-04-17",
+    "source": "shopify",
+    "metric_key": "orders",
+    "metric_value": 40
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-04-17",
+    "source": "shopify",
+    "metric_key": "rto_rate",
+    "metric_value": 7.5
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-04-17",
+    "source": "shopify",
+    "metric_key": "cod_rate",
+    "metric_value": 45.0
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-04-17",
+    "source": "shopify",
+    "metric_key": "aov",
+    "metric_value": 1074.67
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-04-18",
+    "source": "shopify",
+    "metric_key": "revenue",
+    "metric_value": 43237
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-04-18",
+    "source": "shopify",
+    "metric_key": "net_revenue",
+    "metric_value": 40613.65
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-04-18",
+    "source": "shopify",
+    "metric_key": "orders",
+    "metric_value": 40
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-04-18",
+    "source": "shopify",
+    "metric_key": "rto_rate",
+    "metric_value": 7.5
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-04-18",
+    "source": "shopify",
+    "metric_key": "cod_rate",
+    "metric_value": 60.0
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-04-18",
+    "source": "shopify",
+    "metric_key": "aov",
+    "metric_value": 1080.92
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-04-19",
+    "source": "shopify",
+    "metric_key": "revenue",
+    "metric_value": 35146
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-04-19",
+    "source": "shopify",
+    "metric_key": "net_revenue",
+    "metric_value": 33066.25
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-04-19",
+    "source": "shopify",
+    "metric_key": "orders",
+    "metric_value": 38
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-04-19",
+    "source": "shopify",
+    "metric_key": "rto_rate",
+    "metric_value": 2.63
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-04-19",
+    "source": "shopify",
+    "metric_key": "cod_rate",
+    "metric_value": 39.47
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-04-19",
+    "source": "shopify",
+    "metric_key": "aov",
+    "metric_value": 924.89
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-04-20",
+    "source": "shopify",
+    "metric_key": "revenue",
+    "metric_value": 27559
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-04-20",
+    "source": "shopify",
+    "metric_key": "net_revenue",
+    "metric_value": 26540.15
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-04-20",
+    "source": "shopify",
+    "metric_key": "orders",
+    "metric_value": 31
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-04-20",
+    "source": "shopify",
+    "metric_key": "rto_rate",
+    "metric_value": 3.23
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-04-20",
+    "source": "shopify",
+    "metric_key": "cod_rate",
+    "metric_value": 48.39
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-04-20",
+    "source": "shopify",
+    "metric_key": "aov",
+    "metric_value": 889.0
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-04-21",
+    "source": "shopify",
+    "metric_key": "revenue",
+    "metric_value": 31556
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-04-21",
+    "source": "shopify",
+    "metric_key": "net_revenue",
+    "metric_value": 28130.55
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-04-21",
+    "source": "shopify",
+    "metric_key": "orders",
+    "metric_value": 30
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-04-21",
+    "source": "shopify",
+    "metric_key": "rto_rate",
+    "metric_value": 10.0
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-04-21",
+    "source": "shopify",
+    "metric_key": "cod_rate",
+    "metric_value": 63.33
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-04-21",
+    "source": "shopify",
+    "metric_key": "aov",
+    "metric_value": 1051.87
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-04-22",
+    "source": "shopify",
+    "metric_key": "revenue",
+    "metric_value": 30057
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-04-22",
+    "source": "shopify",
+    "metric_key": "net_revenue",
+    "metric_value": 29008.65
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-04-22",
+    "source": "shopify",
+    "metric_key": "orders",
+    "metric_value": 28
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-04-22",
+    "source": "shopify",
+    "metric_key": "rto_rate",
+    "metric_value": 3.57
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-04-22",
+    "source": "shopify",
+    "metric_key": "cod_rate",
+    "metric_value": 53.57
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-04-22",
+    "source": "shopify",
+    "metric_key": "aov",
+    "metric_value": 1073.46
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-04-23",
+    "source": "shopify",
+    "metric_key": "revenue",
+    "metric_value": 33004
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-04-23",
+    "source": "shopify",
+    "metric_key": "net_revenue",
+    "metric_value": 31445.8
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-04-23",
+    "source": "shopify",
+    "metric_key": "orders",
+    "metric_value": 33
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-04-23",
+    "source": "shopify",
+    "metric_key": "rto_rate",
+    "metric_value": 3.03
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-04-23",
+    "source": "shopify",
+    "metric_key": "cod_rate",
+    "metric_value": 42.42
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-04-23",
+    "source": "shopify",
+    "metric_key": "aov",
+    "metric_value": 1000.12
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-04-24",
+    "source": "shopify",
+    "metric_key": "revenue",
+    "metric_value": 29807
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-04-24",
+    "source": "shopify",
+    "metric_key": "net_revenue",
+    "metric_value": 26826.5
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-04-24",
+    "source": "shopify",
+    "metric_key": "orders",
+    "metric_value": 33
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-04-24",
+    "source": "shopify",
+    "metric_key": "rto_rate",
+    "metric_value": 12.12
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-04-24",
+    "source": "shopify",
+    "metric_key": "cod_rate",
+    "metric_value": 42.42
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-04-24",
+    "source": "shopify",
+    "metric_key": "aov",
+    "metric_value": 903.24
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-04-25",
+    "source": "shopify",
+    "metric_key": "revenue",
+    "metric_value": 44135
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-04-25",
+    "source": "shopify",
+    "metric_key": "net_revenue",
+    "metric_value": 41079.75
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-04-25",
+    "source": "shopify",
+    "metric_key": "orders",
+    "metric_value": 48
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-04-25",
+    "source": "shopify",
+    "metric_key": "rto_rate",
+    "metric_value": 4.17
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-04-25",
+    "source": "shopify",
+    "metric_key": "cod_rate",
+    "metric_value": 52.08
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-04-25",
+    "source": "shopify",
+    "metric_key": "aov",
+    "metric_value": 919.48
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-04-26",
+    "source": "shopify",
+    "metric_key": "revenue",
+    "metric_value": 36596
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-04-26",
+    "source": "shopify",
+    "metric_key": "net_revenue",
+    "metric_value": 30786.8
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-04-26",
+    "source": "shopify",
+    "metric_key": "orders",
+    "metric_value": 36
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-04-26",
+    "source": "shopify",
+    "metric_key": "rto_rate",
+    "metric_value": 11.11
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-04-26",
+    "source": "shopify",
+    "metric_key": "cod_rate",
+    "metric_value": 50.0
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-04-26",
+    "source": "shopify",
+    "metric_key": "aov",
+    "metric_value": 1016.56
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-04-27",
+    "source": "shopify",
+    "metric_key": "revenue",
+    "metric_value": 33849
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-04-27",
+    "source": "shopify",
+    "metric_key": "net_revenue",
+    "metric_value": 32690.95
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-04-27",
+    "source": "shopify",
+    "metric_key": "orders",
+    "metric_value": 34
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-04-27",
+    "source": "shopify",
+    "metric_key": "rto_rate",
+    "metric_value": 2.94
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-04-27",
+    "source": "shopify",
+    "metric_key": "cod_rate",
+    "metric_value": 52.94
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-04-27",
+    "source": "shopify",
+    "metric_key": "aov",
+    "metric_value": 995.56
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-04-28",
+    "source": "shopify",
+    "metric_key": "revenue",
+    "metric_value": 32455
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-04-28",
+    "source": "shopify",
+    "metric_key": "net_revenue",
+    "metric_value": 26632.95
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-04-28",
+    "source": "shopify",
+    "metric_key": "orders",
+    "metric_value": 34
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-04-28",
+    "source": "shopify",
+    "metric_key": "rto_rate",
+    "metric_value": 8.82
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-04-28",
+    "source": "shopify",
+    "metric_key": "cod_rate",
+    "metric_value": 50.0
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-04-28",
+    "source": "shopify",
+    "metric_key": "aov",
+    "metric_value": 954.56
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-04-29",
+    "source": "shopify",
+    "metric_key": "revenue",
+    "metric_value": 38696
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-04-29",
+    "source": "shopify",
+    "metric_key": "net_revenue",
+    "metric_value": 35989.55
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-04-29",
+    "source": "shopify",
+    "metric_key": "orders",
+    "metric_value": 40
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-04-29",
+    "source": "shopify",
+    "metric_key": "rto_rate",
+    "metric_value": 7.5
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-04-29",
+    "source": "shopify",
+    "metric_key": "cod_rate",
+    "metric_value": 40.0
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-04-29",
+    "source": "shopify",
+    "metric_key": "aov",
+    "metric_value": 967.4
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-04-30",
+    "source": "shopify",
+    "metric_key": "revenue",
+    "metric_value": 28660
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-04-30",
+    "source": "shopify",
+    "metric_key": "net_revenue",
+    "metric_value": 27182.05
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-04-30",
+    "source": "shopify",
+    "metric_key": "orders",
+    "metric_value": 31
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-04-30",
+    "source": "shopify",
+    "metric_key": "rto_rate",
+    "metric_value": 3.23
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-04-30",
+    "source": "shopify",
+    "metric_key": "cod_rate",
+    "metric_value": 35.48
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-04-30",
+    "source": "shopify",
+    "metric_key": "aov",
+    "metric_value": 924.52
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-05-01",
+    "source": "shopify",
+    "metric_key": "revenue",
+    "metric_value": 41141
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-05-01",
+    "source": "shopify",
+    "metric_key": "net_revenue",
+    "metric_value": 36947.3
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-05-01",
+    "source": "shopify",
+    "metric_key": "orders",
+    "metric_value": 46
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-05-01",
+    "source": "shopify",
+    "metric_key": "rto_rate",
+    "metric_value": 8.7
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-05-01",
+    "source": "shopify",
+    "metric_key": "cod_rate",
+    "metric_value": 54.35
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-05-01",
+    "source": "shopify",
+    "metric_key": "aov",
+    "metric_value": 894.37
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-05-02",
+    "source": "shopify",
+    "metric_key": "revenue",
+    "metric_value": 39842
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-05-02",
+    "source": "shopify",
+    "metric_key": "net_revenue",
+    "metric_value": 38419.25
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-05-02",
+    "source": "shopify",
+    "metric_key": "orders",
+    "metric_value": 40
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-05-02",
+    "source": "shopify",
+    "metric_key": "rto_rate",
+    "metric_value": 2.5
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-05-02",
+    "source": "shopify",
+    "metric_key": "cod_rate",
+    "metric_value": 42.5
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-05-02",
+    "source": "shopify",
+    "metric_key": "aov",
+    "metric_value": 996.05
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-05-03",
+    "source": "shopify",
+    "metric_key": "revenue",
+    "metric_value": 36348
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-05-03",
+    "source": "shopify",
+    "metric_key": "net_revenue",
+    "metric_value": 34408.05
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-05-03",
+    "source": "shopify",
+    "metric_key": "orders",
+    "metric_value": 37
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-05-03",
+    "source": "shopify",
+    "metric_key": "rto_rate",
+    "metric_value": 2.7
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-05-03",
+    "source": "shopify",
+    "metric_key": "cod_rate",
+    "metric_value": 54.05
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-05-03",
+    "source": "shopify",
+    "metric_key": "aov",
+    "metric_value": 982.38
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-05-04",
+    "source": "shopify",
+    "metric_key": "revenue",
+    "metric_value": 21517
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-05-04",
+    "source": "shopify",
+    "metric_key": "net_revenue",
+    "metric_value": 21032.75
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-05-04",
+    "source": "shopify",
+    "metric_key": "orders",
+    "metric_value": 23
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-05-04",
+    "source": "shopify",
+    "metric_key": "rto_rate",
+    "metric_value": 0.0
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-05-04",
+    "source": "shopify",
+    "metric_key": "cod_rate",
+    "metric_value": 43.48
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-05-04",
+    "source": "shopify",
+    "metric_key": "aov",
+    "metric_value": 935.52
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-05-05",
+    "source": "shopify",
+    "metric_key": "revenue",
+    "metric_value": 28158
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-05-05",
+    "source": "shopify",
+    "metric_key": "net_revenue",
+    "metric_value": 23024.4
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-05-05",
+    "source": "shopify",
+    "metric_key": "orders",
+    "metric_value": 28
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-05-05",
+    "source": "shopify",
+    "metric_key": "rto_rate",
+    "metric_value": 14.29
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-05-05",
+    "source": "shopify",
+    "metric_key": "cod_rate",
+    "metric_value": 42.86
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-05-05",
+    "source": "shopify",
+    "metric_key": "aov",
+    "metric_value": 1005.64
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-05-06",
+    "source": "shopify",
+    "metric_key": "revenue",
+    "metric_value": 27660
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-05-06",
+    "source": "shopify",
+    "metric_key": "net_revenue",
+    "metric_value": 27390.4
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-05-06",
+    "source": "shopify",
+    "metric_key": "orders",
+    "metric_value": 30
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-05-06",
+    "source": "shopify",
+    "metric_key": "rto_rate",
+    "metric_value": 0.0
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-05-06",
+    "source": "shopify",
+    "metric_key": "cod_rate",
+    "metric_value": 43.33
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-05-06",
+    "source": "shopify",
+    "metric_key": "aov",
+    "metric_value": 922.0
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-02-06",
+    "source": "meta",
+    "metric_key": "spend",
+    "metric_value": 11838.27
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-02-06",
+    "source": "meta",
+    "metric_key": "roas",
+    "metric_value": 3.12
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-02-06",
+    "source": "meta",
+    "metric_key": "impressions",
+    "metric_value": 2844145
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-02-07",
+    "source": "meta",
+    "metric_key": "spend",
+    "metric_value": 11687.53
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-02-07",
+    "source": "meta",
+    "metric_key": "roas",
+    "metric_value": 3.24
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-02-07",
+    "source": "meta",
+    "metric_key": "impressions",
+    "metric_value": 3200945
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-02-08",
+    "source": "meta",
+    "metric_key": "spend",
+    "metric_value": 10828.58
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-02-08",
+    "source": "meta",
+    "metric_key": "roas",
+    "metric_value": 3.53
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-02-08",
+    "source": "meta",
+    "metric_key": "impressions",
+    "metric_value": 3098554
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-02-09",
+    "source": "meta",
+    "metric_key": "spend",
+    "metric_value": 9188.01
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-02-09",
+    "source": "meta",
+    "metric_key": "roas",
+    "metric_value": 2.35
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-02-09",
+    "source": "meta",
+    "metric_key": "impressions",
+    "metric_value": 2664045
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-02-10",
+    "source": "meta",
+    "metric_key": "spend",
+    "metric_value": 18062.72
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-02-10",
+    "source": "meta",
+    "metric_key": "roas",
+    "metric_value": 4.68
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-02-10",
+    "source": "meta",
+    "metric_key": "impressions",
+    "metric_value": 5714531
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-02-11",
+    "source": "meta",
+    "metric_key": "spend",
+    "metric_value": 18346.11
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-02-11",
+    "source": "meta",
+    "metric_key": "roas",
+    "metric_value": 4.02
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-02-11",
+    "source": "meta",
+    "metric_key": "impressions",
+    "metric_value": 4650751
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-02-12",
+    "source": "meta",
+    "metric_key": "spend",
+    "metric_value": 17274.38
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-02-12",
+    "source": "meta",
+    "metric_key": "roas",
+    "metric_value": 4.12
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-02-12",
+    "source": "meta",
+    "metric_key": "impressions",
+    "metric_value": 4700445
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-02-13",
+    "source": "meta",
+    "metric_key": "spend",
+    "metric_value": 15649.87
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-02-13",
+    "source": "meta",
+    "metric_key": "roas",
+    "metric_value": 3.71
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-02-13",
+    "source": "meta",
+    "metric_key": "impressions",
+    "metric_value": 4148328
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-02-14",
+    "source": "meta",
+    "metric_key": "spend",
+    "metric_value": 16918.23
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-02-14",
+    "source": "meta",
+    "metric_key": "roas",
+    "metric_value": 3.68
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-02-14",
+    "source": "meta",
+    "metric_key": "impressions",
+    "metric_value": 4972522
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-02-15",
+    "source": "meta",
+    "metric_key": "spend",
+    "metric_value": 12449.19
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-02-15",
+    "source": "meta",
+    "metric_key": "roas",
+    "metric_value": 2.84
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-02-15",
+    "source": "meta",
+    "metric_key": "impressions",
+    "metric_value": 3288876
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-02-16",
+    "source": "meta",
+    "metric_key": "spend",
+    "metric_value": 9443.34
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-02-16",
+    "source": "meta",
+    "metric_key": "roas",
+    "metric_value": 1.89
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-02-16",
+    "source": "meta",
+    "metric_key": "impressions",
+    "metric_value": 2785063
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-02-17",
+    "source": "meta",
+    "metric_key": "spend",
+    "metric_value": 13097.3
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-02-17",
+    "source": "meta",
+    "metric_key": "roas",
+    "metric_value": 2.16
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-02-17",
+    "source": "meta",
+    "metric_key": "impressions",
+    "metric_value": 3541467
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-02-18",
+    "source": "meta",
+    "metric_key": "spend",
+    "metric_value": 11284.31
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-02-18",
+    "source": "meta",
+    "metric_key": "roas",
+    "metric_value": 1.89
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-02-18",
+    "source": "meta",
+    "metric_key": "impressions",
+    "metric_value": 3114823
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-02-19",
+    "source": "meta",
+    "metric_key": "spend",
+    "metric_value": 10553.98
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-02-19",
+    "source": "meta",
+    "metric_key": "roas",
+    "metric_value": 2.01
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-02-19",
+    "source": "meta",
+    "metric_key": "impressions",
+    "metric_value": 2928372
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-02-20",
+    "source": "meta",
+    "metric_key": "spend",
+    "metric_value": 11528.91
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-02-20",
+    "source": "meta",
+    "metric_key": "roas",
+    "metric_value": 3.81
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-02-20",
+    "source": "meta",
+    "metric_key": "impressions",
+    "metric_value": 3226893
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-02-21",
+    "source": "meta",
+    "metric_key": "spend",
+    "metric_value": 12516.25
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-02-21",
+    "source": "meta",
+    "metric_key": "roas",
+    "metric_value": 3.65
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-02-21",
+    "source": "meta",
+    "metric_key": "impressions",
+    "metric_value": 3316545
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-02-22",
+    "source": "meta",
+    "metric_key": "spend",
+    "metric_value": 11210.15
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-02-22",
+    "source": "meta",
+    "metric_key": "roas",
+    "metric_value": 3.5
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-02-22",
+    "source": "meta",
+    "metric_key": "impressions",
+    "metric_value": 2964187
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-02-23",
+    "source": "meta",
+    "metric_key": "spend",
+    "metric_value": 10220.89
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-02-23",
+    "source": "meta",
+    "metric_key": "roas",
+    "metric_value": 2.46
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-02-23",
+    "source": "meta",
+    "metric_key": "impressions",
+    "metric_value": 3103088
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-02-24",
+    "source": "meta",
+    "metric_key": "spend",
+    "metric_value": 10980.39
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-02-24",
+    "source": "meta",
+    "metric_key": "roas",
+    "metric_value": 2.86
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-02-24",
+    "source": "meta",
+    "metric_key": "impressions",
+    "metric_value": 3281949
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-02-25",
+    "source": "meta",
+    "metric_key": "spend",
+    "metric_value": 10303.87
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-02-25",
+    "source": "meta",
+    "metric_key": "roas",
+    "metric_value": 2.56
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-02-25",
+    "source": "meta",
+    "metric_key": "impressions",
+    "metric_value": 3054878
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-02-26",
+    "source": "meta",
+    "metric_key": "spend",
+    "metric_value": 12644.83
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-02-26",
+    "source": "meta",
+    "metric_key": "roas",
+    "metric_value": 2.49
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-02-26",
+    "source": "meta",
+    "metric_key": "impressions",
+    "metric_value": 3439180
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-02-27",
+    "source": "meta",
+    "metric_key": "spend",
+    "metric_value": 12716.21
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-02-27",
+    "source": "meta",
+    "metric_key": "roas",
+    "metric_value": 2.88
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-02-27",
+    "source": "meta",
+    "metric_key": "impressions",
+    "metric_value": 3641195
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-02-28",
+    "source": "meta",
+    "metric_key": "spend",
+    "metric_value": 12857.94
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-02-28",
+    "source": "meta",
+    "metric_key": "roas",
+    "metric_value": 2.88
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-02-28",
+    "source": "meta",
+    "metric_key": "impressions",
+    "metric_value": 3482995
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-03-01",
+    "source": "meta",
+    "metric_key": "spend",
+    "metric_value": 11393.34
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-03-01",
+    "source": "meta",
+    "metric_key": "roas",
+    "metric_value": 2.47
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-03-01",
+    "source": "meta",
+    "metric_key": "impressions",
+    "metric_value": 3423334
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-03-02",
+    "source": "meta",
+    "metric_key": "spend",
+    "metric_value": 9426.92
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-03-02",
+    "source": "meta",
+    "metric_key": "roas",
+    "metric_value": 1.89
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-03-02",
+    "source": "meta",
+    "metric_key": "impressions",
+    "metric_value": 2670764
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-03-03",
+    "source": "meta",
+    "metric_key": "spend",
+    "metric_value": 10802.08
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-03-03",
+    "source": "meta",
+    "metric_key": "roas",
+    "metric_value": 2.06
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-03-03",
+    "source": "meta",
+    "metric_key": "impressions",
+    "metric_value": 3169135
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-03-04",
+    "source": "meta",
+    "metric_key": "spend",
+    "metric_value": 9377.96
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-03-04",
+    "source": "meta",
+    "metric_key": "roas",
+    "metric_value": 1.94
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-03-04",
+    "source": "meta",
+    "metric_key": "impressions",
+    "metric_value": 2554966
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-03-05",
+    "source": "meta",
+    "metric_key": "spend",
+    "metric_value": 9770.07
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-03-05",
+    "source": "meta",
+    "metric_key": "roas",
+    "metric_value": 1.7
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-03-05",
+    "source": "meta",
+    "metric_key": "impressions",
+    "metric_value": 2755564
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-03-06",
+    "source": "meta",
+    "metric_key": "spend",
+    "metric_value": 10031.83
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-03-06",
+    "source": "meta",
+    "metric_key": "roas",
+    "metric_value": 3.7
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-03-06",
+    "source": "meta",
+    "metric_key": "impressions",
+    "metric_value": 2997276
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-03-07",
+    "source": "meta",
+    "metric_key": "spend",
+    "metric_value": 12517.3
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-03-07",
+    "source": "meta",
+    "metric_key": "roas",
+    "metric_value": 3.43
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-03-07",
+    "source": "meta",
+    "metric_key": "impressions",
+    "metric_value": 3768608
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-03-08",
+    "source": "meta",
+    "metric_key": "spend",
+    "metric_value": 11907.11
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-03-08",
+    "source": "meta",
+    "metric_key": "roas",
+    "metric_value": 3.26
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-03-08",
+    "source": "meta",
+    "metric_key": "impressions",
+    "metric_value": 3433156
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-03-09",
+    "source": "meta",
+    "metric_key": "spend",
+    "metric_value": 8823.04
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-03-09",
+    "source": "meta",
+    "metric_key": "roas",
+    "metric_value": 2.49
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-03-09",
+    "source": "meta",
+    "metric_key": "impressions",
+    "metric_value": 2380202
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-03-10",
+    "source": "meta",
+    "metric_key": "spend",
+    "metric_value": 11121.29
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-03-10",
+    "source": "meta",
+    "metric_key": "roas",
+    "metric_value": 2.56
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-03-10",
+    "source": "meta",
+    "metric_key": "impressions",
+    "metric_value": 3122384
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-03-11",
+    "source": "meta",
+    "metric_key": "spend",
+    "metric_value": 11208.8
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-03-11",
+    "source": "meta",
+    "metric_key": "roas",
+    "metric_value": 2.51
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-03-11",
+    "source": "meta",
+    "metric_key": "impressions",
+    "metric_value": 3399129
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-03-12",
+    "source": "meta",
+    "metric_key": "spend",
+    "metric_value": 9450.44
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-03-12",
+    "source": "meta",
+    "metric_key": "roas",
+    "metric_value": 2.65
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-03-12",
+    "source": "meta",
+    "metric_key": "impressions",
+    "metric_value": 2809539
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-03-13",
+    "source": "meta",
+    "metric_key": "spend",
+    "metric_value": 12959.68
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-03-13",
+    "source": "meta",
+    "metric_key": "roas",
+    "metric_value": 2.64
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-03-13",
+    "source": "meta",
+    "metric_key": "impressions",
+    "metric_value": 4026600
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-03-14",
+    "source": "meta",
+    "metric_key": "spend",
+    "metric_value": 11411.35
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-03-14",
+    "source": "meta",
+    "metric_key": "roas",
+    "metric_value": 2.67
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-03-14",
+    "source": "meta",
+    "metric_key": "impressions",
+    "metric_value": 3577729
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-03-15",
+    "source": "meta",
+    "metric_key": "spend",
+    "metric_value": 12293.51
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-03-15",
+    "source": "meta",
+    "metric_key": "roas",
+    "metric_value": 2.47
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-03-15",
+    "source": "meta",
+    "metric_key": "impressions",
+    "metric_value": 3951937
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-03-16",
+    "source": "meta",
+    "metric_key": "spend",
+    "metric_value": 9982.51
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-03-16",
+    "source": "meta",
+    "metric_key": "roas",
+    "metric_value": 1.65
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-03-16",
+    "source": "meta",
+    "metric_key": "impressions",
+    "metric_value": 2488759
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-03-17",
+    "source": "meta",
+    "metric_key": "spend",
+    "metric_value": 11312.65
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-03-17",
+    "source": "meta",
+    "metric_key": "roas",
+    "metric_value": 2.11
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-03-17",
+    "source": "meta",
+    "metric_key": "impressions",
+    "metric_value": 3092292
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-03-18",
+    "source": "meta",
+    "metric_key": "spend",
+    "metric_value": 10843.7
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-03-18",
+    "source": "meta",
+    "metric_key": "roas",
+    "metric_value": 2.1
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-03-18",
+    "source": "meta",
+    "metric_key": "impressions",
+    "metric_value": 2654236
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-03-19",
+    "source": "meta",
+    "metric_key": "spend",
+    "metric_value": 7854.06
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-03-19",
+    "source": "meta",
+    "metric_key": "roas",
+    "metric_value": 1.73
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-03-19",
+    "source": "meta",
+    "metric_key": "impressions",
+    "metric_value": 2209396
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-03-20",
+    "source": "meta",
+    "metric_key": "spend",
+    "metric_value": 12250.97
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-03-20",
+    "source": "meta",
+    "metric_key": "roas",
+    "metric_value": 3.71
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-03-20",
+    "source": "meta",
+    "metric_key": "impressions",
+    "metric_value": 3278101
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-03-21",
+    "source": "meta",
+    "metric_key": "spend",
+    "metric_value": 12200.72
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-03-21",
+    "source": "meta",
+    "metric_key": "roas",
+    "metric_value": 3.42
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-03-21",
+    "source": "meta",
+    "metric_key": "impressions",
+    "metric_value": 3345077
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-03-22",
+    "source": "meta",
+    "metric_key": "spend",
+    "metric_value": 12366.6
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-03-22",
+    "source": "meta",
+    "metric_key": "roas",
+    "metric_value": 3.5
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-03-22",
+    "source": "meta",
+    "metric_key": "impressions",
+    "metric_value": 3243365
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-03-23",
+    "source": "meta",
+    "metric_key": "spend",
+    "metric_value": 8606.63
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-03-23",
+    "source": "meta",
+    "metric_key": "roas",
+    "metric_value": 2.53
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-03-23",
+    "source": "meta",
+    "metric_key": "impressions",
+    "metric_value": 2501599
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-03-24",
+    "source": "meta",
+    "metric_key": "spend",
+    "metric_value": 11396.48
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-03-24",
+    "source": "meta",
+    "metric_key": "roas",
+    "metric_value": 2.4
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-03-24",
+    "source": "meta",
+    "metric_key": "impressions",
+    "metric_value": 3080231
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-03-25",
+    "source": "meta",
+    "metric_key": "spend",
+    "metric_value": 11384.47
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-03-25",
+    "source": "meta",
+    "metric_key": "roas",
+    "metric_value": 2.58
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-03-25",
+    "source": "meta",
+    "metric_key": "impressions",
+    "metric_value": 3141110
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-03-26",
+    "source": "meta",
+    "metric_key": "spend",
+    "metric_value": 10886.2
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-03-26",
+    "source": "meta",
+    "metric_key": "roas",
+    "metric_value": 2.57
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-03-26",
+    "source": "meta",
+    "metric_key": "impressions",
+    "metric_value": 3101589
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-03-27",
+    "source": "meta",
+    "metric_key": "spend",
+    "metric_value": 12688.48
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-03-27",
+    "source": "meta",
+    "metric_key": "roas",
+    "metric_value": 2.58
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-03-27",
+    "source": "meta",
+    "metric_key": "impressions",
+    "metric_value": 3204737
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-03-28",
+    "source": "meta",
+    "metric_key": "spend",
+    "metric_value": 12646.72
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-03-28",
+    "source": "meta",
+    "metric_key": "roas",
+    "metric_value": 2.66
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-03-28",
+    "source": "meta",
+    "metric_key": "impressions",
+    "metric_value": 3689100
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-03-29",
+    "source": "meta",
+    "metric_key": "spend",
+    "metric_value": 12259.81
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-03-29",
+    "source": "meta",
+    "metric_key": "roas",
+    "metric_value": 2.53
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-03-29",
+    "source": "meta",
+    "metric_key": "impressions",
+    "metric_value": 3343654
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-03-30",
+    "source": "meta",
+    "metric_key": "spend",
+    "metric_value": 7788.85
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-03-30",
+    "source": "meta",
+    "metric_key": "roas",
+    "metric_value": 1.93
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-03-30",
+    "source": "meta",
+    "metric_key": "impressions",
+    "metric_value": 1963952
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-03-31",
+    "source": "meta",
+    "metric_key": "spend",
+    "metric_value": 10348.29
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-03-31",
+    "source": "meta",
+    "metric_key": "roas",
+    "metric_value": 2.07
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-03-31",
+    "source": "meta",
+    "metric_key": "impressions",
+    "metric_value": 2655838
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-04-01",
+    "source": "meta",
+    "metric_key": "spend",
+    "metric_value": 10111.32
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-04-01",
+    "source": "meta",
+    "metric_key": "roas",
+    "metric_value": 1.92
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-04-01",
+    "source": "meta",
+    "metric_key": "impressions",
+    "metric_value": 2613800
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-04-02",
+    "source": "meta",
+    "metric_key": "spend",
+    "metric_value": 11074.76
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-04-02",
+    "source": "meta",
+    "metric_key": "roas",
+    "metric_value": 2.03
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-04-02",
+    "source": "meta",
+    "metric_key": "impressions",
+    "metric_value": 3148955
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-04-03",
+    "source": "meta",
+    "metric_key": "spend",
+    "metric_value": 12043.05
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-04-03",
+    "source": "meta",
+    "metric_key": "roas",
+    "metric_value": 3.47
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-04-03",
+    "source": "meta",
+    "metric_key": "impressions",
+    "metric_value": 3389522
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-04-04",
+    "source": "meta",
+    "metric_key": "spend",
+    "metric_value": 11294.98
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-04-04",
+    "source": "meta",
+    "metric_key": "roas",
+    "metric_value": 3.3
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-04-04",
+    "source": "meta",
+    "metric_key": "impressions",
+    "metric_value": 3152501
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-04-05",
+    "source": "meta",
+    "metric_key": "spend",
+    "metric_value": 12259.19
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-04-05",
+    "source": "meta",
+    "metric_key": "roas",
+    "metric_value": 3.52
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-04-05",
+    "source": "meta",
+    "metric_key": "impressions",
+    "metric_value": 3455863
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-04-06",
+    "source": "meta",
+    "metric_key": "spend",
+    "metric_value": 8472.71
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-04-06",
+    "source": "meta",
+    "metric_key": "roas",
+    "metric_value": 2.23
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-04-06",
+    "source": "meta",
+    "metric_key": "impressions",
+    "metric_value": 2583343
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-04-07",
+    "source": "meta",
+    "metric_key": "spend",
+    "metric_value": 11802.38
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-04-07",
+    "source": "meta",
+    "metric_key": "roas",
+    "metric_value": 2.53
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-04-07",
+    "source": "meta",
+    "metric_key": "impressions",
+    "metric_value": 3392099
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-04-08",
+    "source": "meta",
+    "metric_key": "spend",
+    "metric_value": 10984.09
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-04-08",
+    "source": "meta",
+    "metric_key": "roas",
+    "metric_value": 2.83
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-04-08",
+    "source": "meta",
+    "metric_key": "impressions",
+    "metric_value": 3384190
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-04-09",
+    "source": "meta",
+    "metric_key": "spend",
+    "metric_value": 11387.65
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-04-09",
+    "source": "meta",
+    "metric_key": "roas",
+    "metric_value": 2.63
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-04-09",
+    "source": "meta",
+    "metric_key": "impressions",
+    "metric_value": 3152861
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-04-10",
+    "source": "meta",
+    "metric_key": "spend",
+    "metric_value": 12717.7
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-04-10",
+    "source": "meta",
+    "metric_key": "roas",
+    "metric_value": 2.99
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-04-10",
+    "source": "meta",
+    "metric_key": "impressions",
+    "metric_value": 3762091
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-04-11",
+    "source": "meta",
+    "metric_key": "spend",
+    "metric_value": 11848.23
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-04-11",
+    "source": "meta",
+    "metric_key": "roas",
+    "metric_value": 2.67
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-04-11",
+    "source": "meta",
+    "metric_key": "impressions",
+    "metric_value": 3172237
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-04-12",
+    "source": "meta",
+    "metric_key": "spend",
+    "metric_value": 11786.76
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-04-12",
+    "source": "meta",
+    "metric_key": "roas",
+    "metric_value": 2.72
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-04-12",
+    "source": "meta",
+    "metric_key": "impressions",
+    "metric_value": 3247114
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-04-13",
+    "source": "meta",
+    "metric_key": "spend",
+    "metric_value": 8657.24
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-04-13",
+    "source": "meta",
+    "metric_key": "roas",
+    "metric_value": 2.14
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-04-13",
+    "source": "meta",
+    "metric_key": "impressions",
+    "metric_value": 2433841
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-04-14",
+    "source": "meta",
+    "metric_key": "spend",
+    "metric_value": 9590.76
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-04-14",
+    "source": "meta",
+    "metric_key": "roas",
+    "metric_value": 2.05
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-04-14",
+    "source": "meta",
+    "metric_key": "impressions",
+    "metric_value": 2665202
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-04-15",
+    "source": "meta",
+    "metric_key": "spend",
+    "metric_value": 10569.38
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-04-15",
+    "source": "meta",
+    "metric_key": "roas",
+    "metric_value": 2.0
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-04-15",
+    "source": "meta",
+    "metric_key": "impressions",
+    "metric_value": 2877466
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-04-16",
+    "source": "meta",
+    "metric_key": "spend",
+    "metric_value": 11616.3
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-04-16",
+    "source": "meta",
+    "metric_key": "roas",
+    "metric_value": 1.9
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-04-16",
+    "source": "meta",
+    "metric_key": "impressions",
+    "metric_value": 3286327
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-04-17",
+    "source": "meta",
+    "metric_key": "spend",
+    "metric_value": 11835.2
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-04-17",
+    "source": "meta",
+    "metric_key": "roas",
+    "metric_value": 3.54
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-04-17",
+    "source": "meta",
+    "metric_key": "impressions",
+    "metric_value": 3362589
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-04-18",
+    "source": "meta",
+    "metric_key": "spend",
+    "metric_value": 13549.96
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-04-18",
+    "source": "meta",
+    "metric_key": "roas",
+    "metric_value": 3.56
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-04-18",
+    "source": "meta",
+    "metric_key": "impressions",
+    "metric_value": 4094066
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-04-19",
+    "source": "meta",
+    "metric_key": "spend",
+    "metric_value": 10128.93
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-04-19",
+    "source": "meta",
+    "metric_key": "roas",
+    "metric_value": 3.31
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-04-19",
+    "source": "meta",
+    "metric_key": "impressions",
+    "metric_value": 2890464
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-04-20",
+    "source": "meta",
+    "metric_key": "spend",
+    "metric_value": 9123.87
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-04-20",
+    "source": "meta",
+    "metric_key": "roas",
+    "metric_value": 2.49
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-04-20",
+    "source": "meta",
+    "metric_key": "impressions",
+    "metric_value": 2739004
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-04-21",
+    "source": "meta",
+    "metric_key": "spend",
+    "metric_value": 9974.92
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-04-21",
+    "source": "meta",
+    "metric_key": "roas",
+    "metric_value": 2.69
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-04-21",
+    "source": "meta",
+    "metric_key": "impressions",
+    "metric_value": 2860141
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-04-22",
+    "source": "meta",
+    "metric_key": "spend",
+    "metric_value": 11702.16
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-04-22",
+    "source": "meta",
+    "metric_key": "roas",
+    "metric_value": 2.6
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-04-22",
+    "source": "meta",
+    "metric_key": "impressions",
+    "metric_value": 2965745
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-04-23",
+    "source": "meta",
+    "metric_key": "spend",
+    "metric_value": 11663.62
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-04-23",
+    "source": "meta",
+    "metric_key": "roas",
+    "metric_value": 2.77
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-04-23",
+    "source": "meta",
+    "metric_key": "impressions",
+    "metric_value": 3124043
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-04-24",
+    "source": "meta",
+    "metric_key": "spend",
+    "metric_value": 12773.46
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-04-24",
+    "source": "meta",
+    "metric_key": "roas",
+    "metric_value": 2.77
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-04-24",
+    "source": "meta",
+    "metric_key": "impressions",
+    "metric_value": 3649866
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-04-25",
+    "source": "meta",
+    "metric_key": "spend",
+    "metric_value": 13168.16
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-04-25",
+    "source": "meta",
+    "metric_key": "roas",
+    "metric_value": 3.01
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-04-25",
+    "source": "meta",
+    "metric_key": "impressions",
+    "metric_value": 3663201
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-04-26",
+    "source": "meta",
+    "metric_key": "spend",
+    "metric_value": 10057.33
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-04-26",
+    "source": "meta",
+    "metric_key": "roas",
+    "metric_value": 2.58
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-04-26",
+    "source": "meta",
+    "metric_key": "impressions",
+    "metric_value": 2886685
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-04-27",
+    "source": "meta",
+    "metric_key": "spend",
+    "metric_value": 8427.79
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-04-27",
+    "source": "meta",
+    "metric_key": "roas",
+    "metric_value": 1.91
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-04-27",
+    "source": "meta",
+    "metric_key": "impressions",
+    "metric_value": 2271138
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-04-28",
+    "source": "meta",
+    "metric_key": "spend",
+    "metric_value": 11176.94
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-04-28",
+    "source": "meta",
+    "metric_key": "roas",
+    "metric_value": 1.89
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-04-28",
+    "source": "meta",
+    "metric_key": "impressions",
+    "metric_value": 3328388
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-04-29",
+    "source": "meta",
+    "metric_key": "spend",
+    "metric_value": 10570.04
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-04-29",
+    "source": "meta",
+    "metric_key": "roas",
+    "metric_value": 1.88
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-04-29",
+    "source": "meta",
+    "metric_key": "impressions",
+    "metric_value": 2875746
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-04-30",
+    "source": "meta",
+    "metric_key": "spend",
+    "metric_value": 10640.09
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-04-30",
+    "source": "meta",
+    "metric_key": "roas",
+    "metric_value": 1.78
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-04-30",
+    "source": "meta",
+    "metric_key": "impressions",
+    "metric_value": 3063617
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-05-01",
+    "source": "meta",
+    "metric_key": "spend",
+    "metric_value": 10805.63
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-05-01",
+    "source": "meta",
+    "metric_key": "roas",
+    "metric_value": 3.58
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-05-01",
+    "source": "meta",
+    "metric_key": "impressions",
+    "metric_value": 2866782
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-05-02",
+    "source": "meta",
+    "metric_key": "spend",
+    "metric_value": 13477.36
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-05-02",
+    "source": "meta",
+    "metric_key": "roas",
+    "metric_value": 3.71
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-05-02",
+    "source": "meta",
+    "metric_key": "impressions",
+    "metric_value": 3983295
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-05-03",
+    "source": "meta",
+    "metric_key": "spend",
+    "metric_value": 12892.26
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-05-03",
+    "source": "meta",
+    "metric_key": "roas",
+    "metric_value": 3.54
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-05-03",
+    "source": "meta",
+    "metric_key": "impressions",
+    "metric_value": 3618899
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-05-04",
+    "source": "meta",
+    "metric_key": "spend",
+    "metric_value": 8194.98
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-05-04",
+    "source": "meta",
+    "metric_key": "roas",
+    "metric_value": 2.72
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-05-04",
+    "source": "meta",
+    "metric_key": "impressions",
+    "metric_value": 1951542
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-05-05",
+    "source": "meta",
+    "metric_key": "spend",
+    "metric_value": 8330.78
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-05-05",
+    "source": "meta",
+    "metric_key": "roas",
+    "metric_value": 2.66
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-05-05",
+    "source": "meta",
+    "metric_key": "impressions",
+    "metric_value": 2319850
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-05-06",
+    "source": "meta",
+    "metric_key": "spend",
+    "metric_value": 10117.72
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-05-06",
+    "source": "meta",
+    "metric_key": "roas",
+    "metric_value": 2.69
+  },
+  {
+    "brand_id": "demo-brand-wellnest-001",
+    "date": "2026-05-06",
+    "source": "meta",
+    "metric_key": "impressions",
+    "metric_value": 2991362
+  }
+]
