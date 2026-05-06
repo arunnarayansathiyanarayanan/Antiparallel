@@ -40,16 +40,16 @@ export default function Home() {
         </p>
         <div className="mt-8 flex flex-wrap gap-3">
           <Link
-            href="/signup"
+            href="/demo"
             className="rounded-xl bg-indigo-600 px-5 py-3 text-sm font-semibold text-white hover:bg-indigo-500"
           >
-            Start free 14-day trial
+            Try live demo →
           </Link>
           <Link
-            href="/login"
+            href="/signup"
             className="rounded-xl border border-zinc-700 bg-zinc-900 px-5 py-3 text-sm font-semibold hover:bg-zinc-800"
           >
-            Already have an account
+            Start free 14-day trial
           </Link>
         </div>
       </section>

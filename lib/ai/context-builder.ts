@@ -1,4 +1,4 @@
-import { createClient } from '@/lib/supabase/server';
+import { createServiceClient } from '@/lib/supabase/service';
 import type { Brand, BrandContext, Alert, ChatMessage } from '@/types';
 
 export interface AIContext {
@@ -18,7 +18,7 @@ export interface AIContext {
 }
 
 export async function buildBrandContext(brandId: string): Promise<AIContext> {
-  const supabase = createClient();
+  const supabase = createServiceClient();
 
   const thirtyDaysAgo = new Date(Date.now() - 30 * 86400_000).toISOString().slice(0, 10);
   const fortyEightHoursAgo = new Date(Date.now() - 48 * 3600_000).toISOString();
