@@ -2,6 +2,7 @@ import Anthropic from '@anthropic-ai/sdk';
 import { createServiceClient } from '@/lib/supabase/service';
 
 const anthropic = new Anthropic();
+const CLAUDE_MODEL = process.env.CLAUDE_MODEL_ID ?? 'claude-sonnet-4-20250514';
 
 function inr(n: number): string {
   if (n >= 10_000_000) return `₹${(n / 10_000_000).toFixed(1)}Cr`;
@@ -78,7 +79,7 @@ ${roasWarn ? '⚠️ [short ROAS action]' : topAlert ? '⚠️ [short alert summ
 Reply with any question.`;
 
   const response = await anthropic.messages.create({
-    model: 'claude-sonnet-4-20250514',
+    model: CLAUDE_MODEL,
     max_tokens: 150,
     messages: [{ role: 'user', content: prompt }],
   });

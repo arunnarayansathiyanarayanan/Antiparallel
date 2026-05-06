@@ -13,7 +13,8 @@ from pathlib import Path
 random.seed(42)
 
 # ── Configuration ────────────────────────────────────────────
-BRAND_ID = "demo-brand-wellnest-001"
+# Must be a valid UUID because app/api/chat validates brandId as UUID.
+BRAND_ID = "9d5c1f5c-0ae6-4f86-9c70-8a5a2f9167f1"
 BRAND_NAME = "WellNest India"
 FOUNDER = "Arun Sharma"
 PHONE = "+919876543210"
@@ -190,6 +191,7 @@ print(f"  Generated {len(meta_daily)} Meta Ads daily rows")
 # ── 4. TALLY P&L CSV (simplified) ────────────────────────────
 print("Generating Tally P&L data...")
 tally_data = []
+running_cash = 1840000  # ₹18.4 lakh starting cash
 for date in dates:
     d = str(date)
     if d not in shopify_daily:
@@ -200,6 +202,7 @@ for date in dates:
     logistics = s["orders"] * random.gauss(65, 10)  # ₹65 avg per order
     gross_profit = s["net_revenue"] - cogs
     ebitda = gross_profit - meta_spend - logistics - 800  # ₹800/day fixed overhead
+    running_cash += ebitda
 
     tally_data.append({
         "date": d,
@@ -212,11 +215,12 @@ for date in dates:
         "logistics_cost": round(logistics, 2),
         "fixed_overheads": 800,
         "ebitda": round(ebitda, 2),
+        "cash_balance": round(running_cash, 2),
     })
 
 # Cash position summary
 total_ebitda = sum(r["ebitda"] for r in tally_data[-30:])
-cash_in_bank = 1840000  # ₹18.4 lakh
+cash_in_bank = round(running_cash, 2)
 
 # ── 5. METRICS_DAILY (Supabase format) ───────────────────────
 print("Generating metrics_daily rows for Supabase...")
@@ -236,8 +240,9 @@ meta_by_date = {}
 for r in meta_daily:
     d = r["date"]
     if d not in meta_by_date:
-        meta_by_date[d] = {"spend": 0, "roas_sum": 0, "roas_count": 0, "impressions": 0}
+        meta_by_date[d] = {"spend": 0, "revenue": 0, "roas_sum": 0, "roas_count": 0, "impressions": 0}
     meta_by_date[d]["spend"] += r["spend_inr"]
+    meta_by_date[d]["revenue"] += r["revenue_attributed_inr"]
     meta_by_date[d]["roas_sum"] += r["roas"]
     meta_by_date[d]["roas_count"] += 1
     meta_by_date[d]["impressions"] += r["impressions"]
@@ -245,8 +250,19 @@ for r in meta_daily:
 for d, m in meta_by_date.items():
     avg_roas = m["roas_sum"] / m["roas_count"] if m["roas_count"] > 0 else 0
     supabase_rows.append({"brand_id": BRAND_ID, "date": d, "source": "meta", "metric_key": "spend", "metric_value": round(m["spend"], 2)})
+    supabase_rows.append({"brand_id": BRAND_ID, "date": d, "source": "meta", "metric_key": "revenue", "metric_value": round(m["revenue"], 2)})
     supabase_rows.append({"brand_id": BRAND_ID, "date": d, "source": "meta", "metric_key": "roas", "metric_value": round(avg_roas, 2)})
     supabase_rows.append({"brand_id": BRAND_ID, "date": d, "source": "meta", "metric_key": "impressions", "metric_value": m["impressions"]})
+
+# Tally cash position rows for context-builder cash insights
+for row in tally_data:
+    supabase_rows.append({
+        "brand_id": BRAND_ID,
+        "date": row["date"],
+        "source": "tally_csv",
+        "metric_key": "cash_position",
+        "metric_value": row["cash_balance"],
+    })
 
 # ── 6. SKU SUMMARY ────────────────────────────────────────────
 sku_summary = {}
@@ -261,6 +277,7 @@ for o in orders:
     sku_summary[name]["orders"] += 1
 
 # ── 7. WRITE FILES ─────────────────────────────────────────────
+# Canonical folder for generated assets (no spaces, easy for scripts/imports)
 out = Path("sample-data")
 out.mkdir(exist_ok=True)
 
@@ -330,12 +347,63 @@ brand_seed = {
         "competitors": ["HealthKart", "MuscleBlaze", "Oziva"],
         "primary_channels": ["shopify", "meta", "google"],
         "business_notes": "Strong Diwali and Valentine's seasonality. COD is 48% of orders. Main RTO problem in tier-2 cities.",
-        "cash_in_bank_inr": cash_in_bank,
     }
 }
 with open(out / "brand_seed.json", "w") as f:
     json.dump(brand_seed, f, indent=2)
 print(f"  ✓ brand_seed.json")
+
+# SQL seed script for direct Supabase SQL editor import
+def esc(value: str) -> str:
+    return value.replace("'", "''")
+
+sql_lines = []
+brand = brand_seed["brand"]
+ctx = brand_seed["brand_context"]
+
+sql_lines.append("-- Auto-generated sample seed SQL for Brain MVP")
+sql_lines.append("begin;")
+sql_lines.append(
+    f"""insert into brands (id, name, founder_name, founder_phone, founder_email, plan, plan_status, mrr_inr)
+values ('{brand['id']}', '{esc(brand['name'])}', '{esc(brand['founder_name'])}', '{brand['founder_phone']}', '{brand['founder_email']}', '{brand['plan']}', '{brand['plan_status']}', {brand['mrr_inr']})
+on conflict (id) do update set
+  name = excluded.name,
+  founder_name = excluded.founder_name,
+  founder_phone = excluded.founder_phone,
+  founder_email = excluded.founder_email,
+  plan = excluded.plan,
+  plan_status = excluded.plan_status,
+  mrr_inr = excluded.mrr_inr;"""
+)
+
+key_skus = "{" + ",".join([f'"{esc(x)}"' for x in ctx["key_skus"]]) + "}"
+competitors = "{" + ",".join([f'"{esc(x)}"' for x in ctx["competitors"]]) + "}"
+channels = "{" + ",".join([f'"{esc(x)}"' for x in ctx["primary_channels"]]) + "}"
+
+sql_lines.append(
+    f"""insert into brand_context (brand_id, key_skus, target_roas, monthly_ad_budget_inr, competitors, primary_channels, business_notes)
+values ('{ctx['brand_id']}', '{key_skus}', {ctx['target_roas']}, {ctx['monthly_ad_budget_inr']}, '{competitors}', '{channels}', '{esc(ctx['business_notes'])}')
+on conflict (brand_id) do update set
+  key_skus = excluded.key_skus,
+  target_roas = excluded.target_roas,
+  monthly_ad_budget_inr = excluded.monthly_ad_budget_inr,
+  competitors = excluded.competitors,
+  primary_channels = excluded.primary_channels,
+  business_notes = excluded.business_notes;"""
+)
+
+for row in supabase_rows:
+    sql_lines.append(
+        f"""insert into metrics_daily (brand_id, date, source, metric_key, metric_value)
+values ('{row['brand_id']}', '{row['date']}', '{row['source']}', '{row['metric_key']}', {row['metric_value']})
+on conflict (brand_id, date, source, metric_key) do update set
+  metric_value = excluded.metric_value;"""
+    )
+
+sql_lines.append("commit;")
+with open(out / "seed.sql", "w", encoding="utf-8") as f:
+    f.write("\n".join(sql_lines))
+print("  ✓ seed.sql")
 
 # Summary stats
 print("\n" + "="*50)

@@ -1,0 +1,50 @@
+[
+  {
+    "sku_name": "Collagen Gummies 30pc",
+    "total_revenue_inr": 915865,
+    "units_sold": 1346,
+    "total_orders": 980,
+    "total_cogs_inr": 114410,
+    "gross_margin_pct": 87.5
+  },
+  {
+    "sku_name": "Vitamin C Serum 30ml",
+    "total_revenue_inr": 735472,
+    "units_sold": 839,
+    "total_orders": 608,
+    "total_cogs_inr": 100680,
+    "gross_margin_pct": 86.3
+  },
+  {
+    "sku_name": "Ashwagandha 60pc",
+    "total_revenue_inr": 353691,
+    "units_sold": 725,
+    "total_orders": 517,
+    "total_cogs_inr": 47125,
+    "gross_margin_pct": 86.7
+  },
+  {
+    "sku_name": "Biotin Hair Gummies",
+    "total_revenue_inr": 345234,
+    "units_sold": 591,
+    "total_orders": 430,
+    "total_cogs_inr": 44325,
+    "gross_margin_pct": 87.2
+  },
+  {
+    "sku_name": "Omega-3 Fish Oil 60pc",
+    "total_revenue_inr": 310811,
+    "units_sold": 396,
+    "total_orders": 290,
+    "total_cogs_inr": 35640,
+    "gross_margin_pct": 88.5
+  },
+  {
+    "sku_name": "Multivitamin Women 30pc",
+    "total_revenue_inr": 176531,
+    "units_sold": 328,
+    "total_orders": 230,
+    "total_cogs_inr": 22960,
+    "gross_margin_pct": 87.0
+  }
+]

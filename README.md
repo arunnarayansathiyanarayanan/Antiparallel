@@ -93,6 +93,13 @@ Open `http://localhost:3000`.
 - OAuth callbacks redirect to `/dashboard/sources?connected=<source>`
 - Chat API enforces 50 requests per brand/day when Upstash keys are configured
 
+## Sample Data (Local QA)
+
+- Prepare aligned sample seed assets: `npm run prepare:sample-data`
+- Generated files are written to `sample-data/`
+- Use `sample-data/seed.sql` in Supabase SQL Editor for fast seeding
+- Demo brand ID for chat tests: `9d5c1f5c-0ae6-4f86-9c70-8a5a2f9167f1`
+
 ## Deployment Notes
 
 - Add all `.env.local` keys to Vercel project settings.

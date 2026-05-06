@@ -169,7 +169,7 @@ export async function syncMetaAdsData(
           brand_id: brandId,
           date: today,
           source: 'meta',
-          metric_key: 'creative_performance',
+          metric_key: `creative_${ad.ad_id}`,
           metric_value: adRoas,
           metadata: {
             creative_id: ad.ad_id,
@@ -225,7 +225,7 @@ export async function getAdCreativePerformance(
     .select('metric_value, metadata')
     .eq('brand_id', brandId)
     .eq('source', 'meta')
-    .eq('metric_key', 'creative_performance')
+    .like('metric_key', 'creative_%')
     .gte('date', since.toISOString().slice(0, 10))
     .order('metric_value', { ascending: false })
     .limit(20);

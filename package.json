@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "prepare:sample-data": "node scripts/prepare-sample-data.mjs"
   },
   "dependencies": {
     "@ai-sdk/anthropic": "^0.0.56",

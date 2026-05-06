@@ -9,6 +9,8 @@ import { buildSystemPrompt } from '@/lib/ai/system-prompt';
 import { createClient } from '@/lib/supabase/server';
 import type { ChatMessage } from '@/types';
 
+const CLAUDE_MODEL = process.env.CLAUDE_MODEL_ID ?? 'claude-sonnet-4-20250514';
+
 // Only initialise Redis if env vars are present (skips in local dev without Upstash)
 const ratelimit =
   process.env.UPSTASH_REDIS_REST_URL && process.env.UPSTASH_REDIS_REST_TOKEN
@@ -34,7 +36,7 @@ export async function POST(request: NextRequest) {
     if (!parsed.success) {
       return Response.json({ error: 'Invalid request body' }, { status: 400 });
     }
-    const { messages, brandId } = parsed.data as { messages: ChatMessage[]; brandId: string };
+    const { messages, brandId } = parsed.data;
 
     // Rate limiting — 50 messages per brand per day
     if (ratelimit) {
@@ -51,7 +53,7 @@ export async function POST(request: NextRequest) {
     const systemPrompt = buildSystemPrompt(ctx);
 
     const result = await streamText({
-      model: anthropic('claude-sonnet-4-20250514'),
+      model: anthropic(CLAUDE_MODEL),
       system: systemPrompt,
       messages,
       maxTokens: 1024 as number,
@@ -85,7 +87,7 @@ export async function POST(request: NextRequest) {
     });
 
     return result.toDataStreamResponse();
-  } catch (err) {
+  } catch {
     return Response.json({ error: 'Internal server error' }, { status: 500 });
   }
 }

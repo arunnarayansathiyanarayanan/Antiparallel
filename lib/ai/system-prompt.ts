@@ -11,7 +11,7 @@ export function buildSystemPrompt(ctx: AIContext): string {
   const {
     brand, brandContext,
     revenue7d, revenuePrev7d, orders7d, revenueByDay,
-    adSpendByPlatform, roas7dByPlatform,
+    adSpendByPlatform, adRevenueByPlatform, roas7dByPlatform,
     rtoRate7d, cashPosition, recentAlerts,
   } = ctx;
 
@@ -30,7 +30,7 @@ export function buildSystemPrompt(ctx: AIContext): string {
 
   const adLines = Object.entries(adSpendByPlatform).map(([platform, spend]) => {
     const roas = roas7dByPlatform[platform] ?? 0;
-    const rev = adSpendByPlatform[platform] ? (roas * spend) : 0;
+    const rev = adRevenueByPlatform[platform] ?? 0;
     return `  ${platform.toUpperCase()}: spend ${inr(spend)}, revenue ${inr(rev)}, ROAS ${roas.toFixed(2)}x`;
   });
   const adSection = adLines.length > 0 ? adLines.join('\n') : '  No ad data (connect Meta or Google)';
