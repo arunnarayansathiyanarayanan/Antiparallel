@@ -31,7 +31,7 @@ export default function SignupPage() {
     setLoading(true);
     try {
       const supabase = createClient();
-      const { error: signUpError } = await supabase.auth.signUp({
+      const { data: signUpData, error: signUpError } = await supabase.auth.signUp({
         email: parsed.data.email,
         password: parsed.data.password,
       });
@@ -42,9 +42,13 @@ export default function SignupPage() {
         return;
       }
 
+      const accessToken = signUpData.session?.access_token;
       const bootstrapRes = await fetch('/api/auth/bootstrap', {
         method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
+        headers: {
+          'Content-Type': 'application/json',
+          ...(accessToken ? { 'Authorization': `Bearer ${accessToken}` } : {}),
+        },
         body: JSON.stringify({}),
       });
 

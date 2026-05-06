@@ -12,23 +12,37 @@ export async function POST(request: Request) {
       return Response.json({ error: 'Invalid request body' }, { status: 400 });
     }
 
+    // Accept token from Authorization header (set immediately after signUp)
+    // or fall back to session cookie (set on subsequent requests)
+    const authHeader = request.headers.get('authorization');
+    const bearerToken = authHeader?.startsWith('Bearer ') ? authHeader.slice(7) : null;
+
     const supabase = createClient();
-    const { data: { user } } = await supabase.auth.getUser();
-    if (!user?.email) {
+    const service = createServiceClient();
+
+    let userEmail: string | null = null;
+    if (bearerToken) {
+      const { data: { user } } = await service.auth.getUser(bearerToken);
+      userEmail = user?.email ?? null;
+    } else {
+      const { data: { user } } = await supabase.auth.getUser();
+      userEmail = user?.email ?? null;
+    }
+
+    if (!userEmail) {
       return Response.json({ error: 'Unauthorized' }, { status: 401 });
     }
 
-    const service = createServiceClient();
     const { data: brand } = await service
       .from('brands')
       .select('id')
-      .eq('founder_email', user.email)
+      .eq('founder_email', userEmail)
       .single();
 
     if (!brand) {
       await service.from('brands').insert({
         name: 'My Brand',
-        founder_email: user.email,
+        founder_email: userEmail,
         founder_name: null,
         founder_phone: null,
         plan: 'trial',
