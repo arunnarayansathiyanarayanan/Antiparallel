@@ -1,35 +1,66 @@
 'use client';
 
 import { useState, useRef } from 'react';
-import { useRouter, useSearchParams } from 'next/navigation';
+import { useRouter } from 'next/navigation';
 import { Button } from '@/components/ui/button';
-import { CheckCircle, Loader2, Upload, ExternalLink, ChevronDown, ChevronUp } from 'lucide-react';
-import { saveTallyCsvData, type TallyCsvRow } from '@/app/actions/onboarding';
+import { CheckCircle, Loader2, Upload, ExternalLink, Eye, EyeOff } from 'lucide-react';
+import {
+  saveTallyCsvData,
+  saveShopifyCredentials,
+  saveMetaCredentials,
+  type TallyCsvRow,
+} from '@/app/actions/onboarding';
+
+type Status = 'idle' | 'loading' | 'done' | 'error';
 
 export default function ConnectPage() {
   const router = useRouter();
-  const searchParams = useSearchParams();
-  const connected = searchParams.get('connected');
 
-  const [shopInput, setShopInput] = useState('');
-  const [shopOpen, setShopOpen] = useState(false);
-  const [csvStatus, setCsvStatus] = useState<'idle' | 'loading' | 'done' | 'error'>('idle');
+  // Shopify
+  const [shopDomain, setShopDomain] = useState('');
+  const [shopToken, setShopToken] = useState('');
+  const [showShopToken, setShowShopToken] = useState(false);
+  const [shopStatus, setShopStatus] = useState<Status>('idle');
+  const [shopError, setShopError] = useState('');
+
+  // Meta
+  const [metaAccountId, setMetaAccountId] = useState('');
+  const [metaToken, setMetaToken] = useState('');
+  const [showMetaToken, setShowMetaToken] = useState(false);
+  const [metaStatus, setMetaStatus] = useState<Status>('idle');
+  const [metaError, setMetaError] = useState('');
+
+  // Tally CSV
+  const [csvStatus, setCsvStatus] = useState<Status>('idle');
   const [csvError, setCsvError] = useState('');
   const fileRef = useRef<HTMLInputElement>(null);
 
-  const shopifyConnected = connected === 'shopify';
-  const metaConnected = connected === 'meta';
-  const anyConnected = shopifyConnected || metaConnected || csvStatus === 'done';
+  const anyConnected = shopStatus === 'done' || metaStatus === 'done' || csvStatus === 'done';
 
-  function connectShopify() {
-    const shop = shopInput.trim().replace(/^https?:\/\//, '').replace(/\/$/, '');
-    if (!shop) return;
-    const slug = shop.includes('.') ? shop : `${shop}.myshopify.com`;
-    window.location.href = `/api/integrations/shopify/connect?shop=${encodeURIComponent(slug)}`;
+  async function connectShopify() {
+    if (!shopDomain.trim() || !shopToken.trim()) return;
+    setShopStatus('loading');
+    setShopError('');
+    const result = await saveShopifyCredentials(shopDomain, shopToken);
+    if (result?.error) {
+      setShopStatus('error');
+      setShopError(result.error);
+    } else {
+      setShopStatus('done');
+    }
   }
 
-  function connectMeta() {
-    window.location.href = '/api/integrations/meta/connect';
+  async function connectMeta() {
+    if (!metaAccountId.trim() || !metaToken.trim()) return;
+    setMetaStatus('loading');
+    setMetaError('');
+    const result = await saveMetaCredentials(metaAccountId, metaToken);
+    if (result?.error) {
+      setMetaStatus('error');
+      setMetaError(result.error);
+    } else {
+      setMetaStatus('done');
+    }
   }
 
   async function handleCsvUpload(e: React.ChangeEvent<HTMLInputElement>) {
@@ -68,45 +99,51 @@ export default function ConnectPage() {
           emoji="🛍️"
           title="Shopify"
           description="Revenue · Orders · RTO rate · Top SKUs"
-          what="Connects your store to track daily sales, return rates, and which products are driving growth."
-          connected={shopifyConnected}
+          what="Connects your store to track daily sales, return rates, and product performance."
+          connected={shopStatus === 'done'}
         >
-          {!shopifyConnected && (
-            <div className="mt-3 space-y-2">
-              <div
-                className="flex items-center justify-between cursor-pointer text-xs text-zinc-400 hover:text-zinc-200"
-                onClick={() => setShopOpen(v => !v)}
-              >
-                <span>Enter your Shopify store URL</span>
-                {shopOpen ? <ChevronUp className="w-3.5 h-3.5" /> : <ChevronDown className="w-3.5 h-3.5" />}
-              </div>
-              {shopOpen && (
-                <div className="flex gap-2">
-                  <input
-                    autoFocus
-                    value={shopInput}
-                    onChange={e => setShopInput(e.target.value)}
-                    onKeyDown={e => e.key === 'Enter' && connectShopify()}
-                    placeholder="mystore  or  mystore.myshopify.com"
-                    className="flex-1 bg-zinc-700 border border-zinc-600 rounded-lg px-3 py-2 text-sm text-zinc-100 placeholder:text-zinc-500 focus:outline-none focus:ring-2 focus:ring-indigo-500"
-                  />
-                  <Button
-                    onClick={connectShopify}
-                    disabled={!shopInput.trim()}
-                    className="bg-indigo-600 hover:bg-indigo-500 text-white text-sm shrink-0"
-                  >
-                    Connect <ExternalLink className="w-3 h-3 ml-1" />
-                  </Button>
-                </div>
-              )}
-              {!shopOpen && (
-                <Button
-                  onClick={() => setShopOpen(true)}
-                  className="w-full bg-indigo-600 hover:bg-indigo-500 text-white text-sm"
+          {shopStatus !== 'done' && (
+            <div className="mt-3 space-y-3">
+              <HowToGet
+                steps={[
+                  'Open your Shopify Admin → Settings → Apps and sales channels',
+                  'Click "Develop apps" → Create an app',
+                  'Under API credentials → Admin API access token → Install',
+                  'Copy the token (starts with shpat_)',
+                ]}
+              />
+              <input
+                value={shopDomain}
+                onChange={e => setShopDomain(e.target.value)}
+                placeholder="mystore  or  mystore.myshopify.com"
+                className={inputCls}
+              />
+              <div className="relative">
+                <input
+                  value={shopToken}
+                  onChange={e => setShopToken(e.target.value)}
+                  type={showShopToken ? 'text' : 'password'}
+                  placeholder="shpat_xxxxxxxxxxxxxxxxxxxxxxxx"
+                  className={inputCls + ' pr-10'}
+                />
+                <button
+                  type="button"
+                  onClick={() => setShowShopToken(v => !v)}
+                  className="absolute right-3 top-1/2 -translate-y-1/2 text-zinc-500 hover:text-zinc-300"
                 >
-                  Connect Shopify <ExternalLink className="w-3 h-3 ml-1.5" />
-                </Button>
-              )}
+                  {showShopToken ? <EyeOff className="w-4 h-4" /> : <Eye className="w-4 h-4" />}
+                </button>
+              </div>
+              {shopStatus === 'error' && <p className="text-red-400 text-xs">{shopError}</p>}
+              <Button
+                onClick={connectShopify}
+                disabled={!shopDomain.trim() || !shopToken.trim() || shopStatus === 'loading'}
+                className="w-full bg-indigo-600 hover:bg-indigo-500 text-white text-sm"
+              >
+                {shopStatus === 'loading'
+                  ? <><Loader2 className="w-4 h-4 mr-2 animate-spin" /> Connecting…</>
+                  : 'Connect Shopify'}
+              </Button>
             </div>
           )}
         </ConnectCard>
@@ -116,16 +153,52 @@ export default function ConnectPage() {
           emoji="📘"
           title="Meta Ads"
           description="Ad spend · ROAS · CTR · Creative performance"
-          what="Links your Facebook/Instagram ad account so Brain can track campaign performance and flag creative fatigue."
-          connected={metaConnected}
+          what="Links your Facebook/Instagram ad account so Brain can track campaign performance."
+          connected={metaStatus === 'done'}
         >
-          {!metaConnected && (
-            <Button
-              onClick={connectMeta}
-              className="mt-3 w-full bg-blue-700 hover:bg-blue-600 text-white text-sm"
-            >
-              Connect Facebook / Instagram Ads <ExternalLink className="w-3 h-3 ml-1.5" />
-            </Button>
+          {metaStatus !== 'done' && (
+            <div className="mt-3 space-y-3">
+              <HowToGet
+                steps={[
+                  'Open Meta Business Manager → Settings → System Users',
+                  'Create a system user → Generate Token → select your Ad Account',
+                  'Enable: ads_read, ads_management, read_insights',
+                  'Copy the token and your Ad Account ID from Ads Manager',
+                ]}
+              />
+              <input
+                value={metaAccountId}
+                onChange={e => setMetaAccountId(e.target.value)}
+                placeholder="Ad Account ID  (e.g. 123456789)"
+                className={inputCls}
+              />
+              <div className="relative">
+                <input
+                  value={metaToken}
+                  onChange={e => setMetaToken(e.target.value)}
+                  type={showMetaToken ? 'text' : 'password'}
+                  placeholder="Access token"
+                  className={inputCls + ' pr-10'}
+                />
+                <button
+                  type="button"
+                  onClick={() => setShowMetaToken(v => !v)}
+                  className="absolute right-3 top-1/2 -translate-y-1/2 text-zinc-500 hover:text-zinc-300"
+                >
+                  {showMetaToken ? <EyeOff className="w-4 h-4" /> : <Eye className="w-4 h-4" />}
+                </button>
+              </div>
+              {metaStatus === 'error' && <p className="text-red-400 text-xs">{metaError}</p>}
+              <Button
+                onClick={connectMeta}
+                disabled={!metaAccountId.trim() || !metaToken.trim() || metaStatus === 'loading'}
+                className="w-full bg-blue-700 hover:bg-blue-600 text-white text-sm"
+              >
+                {metaStatus === 'loading'
+                  ? <><Loader2 className="w-4 h-4 mr-2 animate-spin" /> Connecting…</>
+                  : 'Connect Meta Ads'}
+              </Button>
+            </div>
           )}
         </ConnectCard>
 
@@ -195,6 +268,36 @@ export default function ConnectPage() {
   );
 }
 
+const inputCls =
+  'w-full bg-zinc-800 border border-zinc-600 rounded-lg px-3 py-2.5 text-sm text-zinc-100 placeholder:text-zinc-500 focus:outline-none focus:ring-2 focus:ring-indigo-500';
+
+function HowToGet({ steps }: { steps: string[] }) {
+  const [open, setOpen] = useState(false);
+  return (
+    <div className="rounded-lg border border-zinc-700 bg-zinc-900/60 overflow-hidden">
+      <button
+        type="button"
+        onClick={() => setOpen(v => !v)}
+        className="w-full flex items-center gap-2 px-3 py-2 text-xs text-zinc-400 hover:text-zinc-200 text-left"
+      >
+        <ExternalLink className="w-3 h-3 shrink-0" />
+        <span>How to get these credentials</span>
+        <span className="ml-auto">{open ? '▲' : '▼'}</span>
+      </button>
+      {open && (
+        <ol className="px-3 pb-3 space-y-1">
+          {steps.map((s, i) => (
+            <li key={i} className="text-xs text-zinc-400 flex gap-2">
+              <span className="text-indigo-400 shrink-0">{i + 1}.</span>
+              {s}
+            </li>
+          ))}
+        </ol>
+      )}
+    </div>
+  );
+}
+
 function ConnectCard({ emoji, title, description, what, connected, children }: {
   emoji: string;
   title: string;
@@ -205,17 +308,15 @@ function ConnectCard({ emoji, title, description, what, connected, children }: {
 }) {
   return (
     <div className={`rounded-xl border p-4 transition-colors ${connected ? 'border-emerald-700 bg-emerald-950/30' : 'border-zinc-700 bg-zinc-800/50'}`}>
-      <div className="flex items-start justify-between gap-3">
-        <div className="flex items-start gap-3 flex-1">
-          <span className="text-2xl shrink-0">{emoji}</span>
-          <div className="flex-1">
-            <div className="flex items-center gap-2">
-              <p className="font-medium text-sm">{title}</p>
-              {connected && <CheckCircle className="w-4 h-4 text-emerald-400" />}
-            </div>
-            <p className="text-xs text-zinc-400 mt-0.5">{description}</p>
-            <p className="text-xs text-zinc-500 mt-1">{what}</p>
+      <div className="flex items-start gap-3">
+        <span className="text-2xl shrink-0">{emoji}</span>
+        <div className="flex-1">
+          <div className="flex items-center gap-2">
+            <p className="font-medium text-sm">{title}</p>
+            {connected && <CheckCircle className="w-4 h-4 text-emerald-400" />}
           </div>
+          <p className="text-xs text-zinc-400 mt-0.5">{description}</p>
+          <p className="text-xs text-zinc-500 mt-1">{what}</p>
         </div>
       </div>
       {children}

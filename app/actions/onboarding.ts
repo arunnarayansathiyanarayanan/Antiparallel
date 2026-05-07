@@ -76,6 +76,67 @@ export async function saveBrandProfile(input: BrandProfileInput) {
   redirect('/onboarding/connect');
 }
 
+export async function saveShopifyCredentials(shopDomain: string, accessToken: string) {
+  const supabase = createClient();
+  const serviceClient = createServiceClient();
+
+  const { data: { user } } = await supabase.auth.getUser();
+  if (!user) return { error: 'Not authenticated' };
+
+  const { data: brand } = await serviceClient
+    .from('brands')
+    .select('id')
+    .eq('founder_email', user.email)
+    .single();
+
+  if (!brand) return { error: 'Brand not found' };
+
+  const domain = shopDomain.trim().replace(/^https?:\/\//, '').replace(/\/$/, '');
+  const slug = domain.includes('.') ? domain : `${domain}.myshopify.com`;
+
+  await serviceClient
+    .from('integrations')
+    .upsert({
+      brand_id: brand.id,
+      source: 'shopify',
+      access_token: accessToken.trim(),
+      shop_domain: slug,
+      sync_status: 'pending',
+    }, { onConflict: 'brand_id,source' });
+
+  return { success: true };
+}
+
+export async function saveMetaCredentials(adAccountId: string, accessToken: string) {
+  const supabase = createClient();
+  const serviceClient = createServiceClient();
+
+  const { data: { user } } = await supabase.auth.getUser();
+  if (!user) return { error: 'Not authenticated' };
+
+  const { data: brand } = await serviceClient
+    .from('brands')
+    .select('id')
+    .eq('founder_email', user.email)
+    .single();
+
+  if (!brand) return { error: 'Brand not found' };
+
+  const accountId = adAccountId.trim().replace(/^act_/, '');
+
+  await serviceClient
+    .from('integrations')
+    .upsert({
+      brand_id: brand.id,
+      source: 'meta',
+      access_token: accessToken.trim(),
+      account_id: accountId,
+      sync_status: 'pending',
+    }, { onConflict: 'brand_id,source' });
+
+  return { success: true };
+}
+
 export interface TallyCsvRow {
   date: string;
   cashBalance: number;
