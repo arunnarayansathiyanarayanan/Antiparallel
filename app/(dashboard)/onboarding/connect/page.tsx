@@ -4,8 +4,6 @@ import { useState, useRef } from 'react';
 import { useRouter, useSearchParams } from 'next/navigation';
 import { Button } from '@/components/ui/button';
 import { CheckCircle, Loader2, Upload, ExternalLink } from 'lucide-react';
-import { getShopifyOAuthUrl } from '@/lib/integrations/shopify';
-import { getMetaOAuthUrl } from '@/lib/integrations/meta';
 import { saveTallyCsvData, type TallyCsvRow } from '@/app/actions/onboarding';
 
 export default function ConnectPage() {
@@ -24,13 +22,11 @@ export default function ConnectPage() {
   function connectShopify() {
     const shop = shopInput.trim().replace(/^https?:\/\//, '').replace(/\/$/, '');
     if (!shop) return;
-    const url = getShopifyOAuthUrl(shop);
-    window.location.href = url;
+    window.location.href = `/api/integrations/shopify/connect?shop=${encodeURIComponent(shop)}`;
   }
 
   function connectMeta() {
-    const url = getMetaOAuthUrl();
-    window.location.href = url;
+    window.location.href = '/api/integrations/meta/connect';
   }
 
   async function handleCsvUpload(e: React.ChangeEvent<HTMLInputElement>) {
