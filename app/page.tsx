@@ -83,12 +83,6 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="mx-auto max-w-6xl px-4 pb-16">
-        <div className="rounded-xl border border-zinc-800 bg-zinc-900 p-6 text-center">
-          <p className="text-xl font-semibold">Trusted by 50+ Indian D2C brands</p>
-          <p className="mt-2 text-sm text-zinc-400">Beauty, wellness, nutrition, and fashion brands across India rely on Brain daily.</p>
-        </div>
-      </section>
 
       <section className="mx-auto max-w-6xl px-4 pb-20">
         <h2 className="mb-5 text-2xl font-semibold">FAQ</h2>
