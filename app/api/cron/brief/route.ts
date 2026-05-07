@@ -2,7 +2,7 @@ import { NextRequest } from 'next/server';
 import { z } from 'zod';
 import { createServiceClient } from '@/lib/supabase/service';
 import { generateMorningBrief } from '@/lib/ai/brief-generator';
-import { sendWhatsAppMessage } from '@/lib/whatsapp';
+import { sendMorningBrief } from '@/lib/email';
 
 const authHeaderSchema = z.string().min(1);
 
@@ -15,7 +15,7 @@ function authorized(req: NextRequest): boolean {
 interface BriefResult {
   brand_id: string;
   founder_name: string | null;
-  status: 'sent' | 'error';
+  status: 'sent' | 'skipped' | 'error';
   error?: string;
 }
 
@@ -29,9 +29,9 @@ export async function GET(request: NextRequest) {
 
     const { data: brands, error } = await supabase
       .from('brands')
-      .select('id, name, founder_name, founder_phone, plan')
+      .select('id, name, founder_name, founder_email, plan')
       .eq('plan_status', 'active')
-      .not('founder_phone', 'is', null)
+      .not('founder_email', 'is', null)
       .in('plan', ['growth', 'scale']);
 
     if (error || !brands) {
@@ -41,9 +41,14 @@ export async function GET(request: NextRequest) {
     const results: BriefResult[] = [];
 
     for (const brand of brands) {
+      if (!brand.founder_email) {
+        results.push({ brand_id: brand.id, founder_name: brand.founder_name, status: 'skipped' });
+        continue;
+      }
+
       try {
         const brief = await generateMorningBrief(brand.id);
-        await sendWhatsAppMessage(brand.founder_phone!, brief);
+        await sendMorningBrief(brand.founder_email, brand.founder_name ?? '', brief);
 
         await supabase
           .from('alerts')
@@ -62,12 +67,7 @@ export async function GET(request: NextRequest) {
           message: `Morning brief failed to send: ${message}`,
           data: { error: message },
         });
-        results.push({
-          brand_id: brand.id,
-          founder_name: brand.founder_name,
-          status: 'error',
-          error: message,
-        });
+        results.push({ brand_id: brand.id, founder_name: brand.founder_name, status: 'error', error: message });
       }
     }
 

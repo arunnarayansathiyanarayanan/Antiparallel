@@ -65,7 +65,7 @@ export default async function DonePage() {
         <p className="text-xs font-medium text-zinc-400 uppercase tracking-wide mb-3">What happens next</p>
         {[
           'Your data syncs every 4 hours automatically',
-          'You\'ll get a WhatsApp brief at 8am IST (Growth/Scale plans)',
+          'You\'ll get an email brief at 8am IST sent to your account email (Growth/Scale plans)',
           'Ask Brain anything in the chat — it knows your numbers',
           'Alerts fire automatically when ROAS drops or RTO spikes',
         ].map((item, i) => (

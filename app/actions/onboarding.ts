@@ -7,7 +7,6 @@ import { createServiceClient } from '@/lib/supabase/service';
 export interface BrandProfileInput {
   name: string;
   founderName: string;
-  founderPhone: string;
   keySkus: string;       // comma-separated
   targetRoas: number;
   monthlyAdBudget: number | null;
@@ -38,7 +37,6 @@ export async function saveBrandProfile(input: BrandProfileInput) {
       .update({
         name: input.name,
         founder_name: input.founderName,
-        founder_phone: input.founderPhone || null,
       })
       .eq('id', existing.id);
 
@@ -57,7 +55,6 @@ export async function saveBrandProfile(input: BrandProfileInput) {
       .insert({
         name: input.name,
         founder_name: input.founderName,
-        founder_phone: input.founderPhone || null,
         founder_email: user.email,
         plan: 'trial',
       })

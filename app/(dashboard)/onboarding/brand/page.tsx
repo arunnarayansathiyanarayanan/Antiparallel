@@ -21,7 +21,6 @@ export default function BrandPage() {
       await saveBrandProfile({
         name: fd.get('name') as string,
         founderName: fd.get('founderName') as string,
-        founderPhone: fd.get('founderPhone') as string,
         keySkus: fd.get('keySkus') as string,
         targetRoas: parseFloat(fd.get('targetRoas') as string) || 3.0,
         monthlyAdBudget: budget ? parseInt(budget, 10) : null,
@@ -46,27 +45,6 @@ export default function BrandPage() {
 
         <Field label="Your name" required>
           <input name="founderName" required placeholder="Priya Sharma" className={inputCls} />
-        </Field>
-
-        <Field label="WhatsApp number" hint="For morning briefs (Growth/Scale plans)">
-          <div className="flex">
-            <span className="px-3 py-2.5 bg-zinc-700 border border-zinc-600 border-r-0 rounded-l-lg text-zinc-300 text-sm">
-              +91
-            </span>
-            <input
-              name="founderPhone"
-              type="tel"
-              placeholder="9876543210"
-              maxLength={10}
-              className={`${inputCls} rounded-l-none`}
-              onChange={e => {
-                const el = e.currentTarget;
-                if (el.value && !el.value.startsWith('+91')) {
-                  el.dataset.raw = el.value;
-                }
-              }}
-            />
-          </div>
         </Field>
 
         <Field label="Key SKUs" hint="Comma separated — your top products">
@@ -100,6 +78,14 @@ export default function BrandPage() {
           </Field>
         </div>
 
+        {/* Email alerts info */}
+        <div className="rounded-xl border border-indigo-900/50 bg-indigo-950/30 p-4">
+          <p className="text-sm font-medium text-indigo-300">☀️ Daily email brief included</p>
+          <p className="text-xs text-zinc-400 mt-1">
+            You'll receive an 8am IST snapshot — revenue, ROAS, and alerts — sent to your account email (Growth/Scale plans).
+          </p>
+        </div>
+
         {error && <p className="text-red-400 text-sm">{error}</p>}
 
         <Button
@@ -121,16 +107,8 @@ export default function BrandPage() {
 const inputCls =
   'w-full bg-zinc-800 border border-zinc-600 rounded-lg px-3 py-2.5 text-sm text-zinc-100 placeholder:text-zinc-500 focus:outline-none focus:ring-2 focus:ring-indigo-500';
 
-function Field({
-  label,
-  hint,
-  required,
-  children,
-}: {
-  label: string;
-  hint?: string;
-  required?: boolean;
-  children: React.ReactNode;
+function Field({ label, hint, required, children }: {
+  label: string; hint?: string; required?: boolean; children: React.ReactNode;
 }) {
   return (
     <div className="space-y-1.5">
