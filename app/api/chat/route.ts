@@ -4,6 +4,7 @@ import { NextRequest } from 'next/server';
 import { z } from 'zod';
 import { buildBrandContext } from '@/lib/ai/context-builder';
 import { buildSystemPrompt } from '@/lib/ai/system-prompt';
+import { extractAndStoreInsights } from '@/lib/ai/memory';
 import { createClient } from '@/lib/supabase/server';
 import type { ChatMessage } from '@/types';
 
@@ -27,7 +28,7 @@ export async function POST(request: NextRequest) {
     const { messages, brandId } = parsed.data;
 
     const ctx = await buildBrandContext(brandId);
-    const systemPrompt = buildSystemPrompt(ctx);
+    const systemPrompt = buildSystemPrompt(ctx, 'web');
 
     const result = await streamText({
       model: anthropic(CLAUDE_MODEL),
@@ -35,7 +36,6 @@ export async function POST(request: NextRequest) {
       messages,
       maxTokens: 1024 as number,
       onFinish: async ({ text }) => {
-        // Persist conversation asynchronously
         const supabase = createClient();
         const updatedMessages: ChatMessage[] = [
           ...messages,
@@ -60,6 +60,9 @@ export async function POST(request: NextRequest) {
             .from('conversations')
             .insert({ brand_id: brandId, messages: updatedMessages });
         }
+
+        // Extract and store any durable learnings — fire and forget
+        extractAndStoreInsights(brandId, updatedMessages).catch(() => {/* silent */});
       },
     });
 

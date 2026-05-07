@@ -1,9 +1,9 @@
 export type Plan = 'trial' | 'starter' | 'growth' | 'scale';
 export type PlanStatus = 'active' | 'paused' | 'cancelled';
-export type IntegrationSource = 'shopify' | 'meta' | 'google' | 'tally_csv' | 'amazon' | 'zoho';
+export type IntegrationSource = 'shopify' | 'meta' | 'google' | 'tally_csv' | 'amazon' | 'zoho' | 'flipkart' | 'shiprocket' | 'meesho';
 export type SyncStatus = 'pending' | 'syncing' | 'success' | 'error';
 export type AlertSeverity = 'info' | 'warning' | 'critical';
-export type AlertType = 'roas_drop' | 'creative_fatigue' | 'cash_low' | 'rto_spike' | 'gst_notice';
+export type AlertType = 'roas_drop' | 'creative_fatigue' | 'cash_low' | 'rto_spike' | 'gst_notice' | 'stockout_risk' | 'brief_failed';
 
 export interface Brand {
   id: string;
@@ -98,6 +98,22 @@ export interface CreativeMetric {
   ctr: number;
   impressions: number;
   clicks: number;
+}
+
+export interface BrandInsight {
+  id: string;
+  brand_id: string;
+  insight_type: 'learning' | 'decision' | 'pattern' | 'preference';
+  content: string;
+  source: 'founder_decision' | 'ai_observation' | 'chat_conversation' | null;
+  created_at: string;
+}
+
+export interface CourierMetric {
+  courier: string;
+  rtoRate: number;
+  avgDeliveryDays: number;
+  slaBreachRate: number;
 }
 
 export interface Database {

@@ -3,6 +3,7 @@ import { z } from 'zod';
 import { createServiceClient } from '@/lib/supabase/service';
 import { generateMorningBrief } from '@/lib/ai/brief-generator';
 import { sendMorningBrief } from '@/lib/email';
+import { sendMorningBrief as sendWhatsAppBrief } from '@/lib/whatsapp';
 
 const authHeaderSchema = z.string().min(1);
 
@@ -49,6 +50,9 @@ export async function GET(request: NextRequest) {
       try {
         const brief = await generateMorningBrief(brand.id);
         await sendMorningBrief(brand.founder_email, brand.founder_name ?? '', brief);
+
+        // Also send WhatsApp brief if founder has phone configured
+        sendWhatsAppBrief(brand.id).catch(() => {/* WhatsApp optional */});
 
         await supabase
           .from('alerts')
