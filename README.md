@@ -1,5 +1,4 @@
 # Brain — AI BI for Indian D2C Brands
-
 Brain is an AI-powered business intelligence platform for Indian D2C founders.
 It connects sales, ads, and finance data and answers business questions in plain English.
 
